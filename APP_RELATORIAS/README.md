@@ -13,7 +13,7 @@ Aplicación web para la búsqueda, análisis y visualización de relaciones entr
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone [url-del-repositorio]
+git clone https://github.com/Jbeltranp10/Project_BD/tree/main/APP_RELATORIAS
 cd flaskapi-mongodb-main
 ```
 
