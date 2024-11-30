@@ -24,7 +24,7 @@ source venv/bin/activate
 
 ## Instalar dependencias
 pip install -r requirements.txt
-3. Configurar Bases de Datos
+## Configurar Bases de Datos
 Configuración de MongoDB (config/mongodb_config.py):
 pythonCopyMONGODB_CONFIG = {
     "URI": "tu_uri_de_mongodb", 
