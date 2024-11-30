@@ -26,6 +26,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ## Configurar Bases de Datos
 Configuración de MongoDB (config/mongodb_config.py):
+
 pythonCopyMONGODB_CONFIG = {
     "URI": "tu_uri_de_mongodb", 
     "DB_NAME": "relatoria",
