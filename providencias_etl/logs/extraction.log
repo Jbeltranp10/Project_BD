@@ -1,0 +1,815 @@
+2024-11-06 20:21:49,415 - ERROR - Error en el pipeline ETL: name 'time' is not defined
+2024-11-06 20:55:14,018 - ERROR - Error en el pipeline ETL: AudioExtractor.__init__() got an unexpected keyword argument 'batch_size'
+2024-11-06 20:56:13,200 - ERROR - Error en el pipeline ETL: AudioExtractor.__init__() got an unexpected keyword argument 'batch_size'
+2024-11-06 21:02:11,585 - ERROR - Error en el pipeline ETL: MongoLoader.__init__() takes 1 positional argument but 2 were given
+2024-11-06 21:06:50,685 - INFO - Iniciando pipeline ETL
+2024-11-06 21:06:50,685 - INFO - Iniciando extracción...
+2024-11-06 21:07:14,741 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:07:18,330 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:07:25,380 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:07:33,802 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:07:33,855 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:07:44,773 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:07:51,137 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:08:05,979 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:08:44,438 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:08:44,780 - ERROR - Error en el procesamiento: 'NoneType' object is not subscriptable
+2024-11-06 21:08:44,780 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:08:44,780 - INFO - Iniciando transformación...
+2024-11-06 21:08:44,795 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:08:44,795 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:08:44,795 - INFO - Iniciando carga...
+2024-11-06 21:08:44,795 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:08:47,173 - INFO - Índices creados exitosamente
+2024-11-06 21:08:47,173 - INFO - Carga completada
+2024-11-06 21:08:47,323 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:08:47,323 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:11:33,779 - INFO - Iniciando pipeline ETL
+2024-11-06 21:11:33,779 - INFO - Iniciando extracción...
+2024-11-06 21:11:51,448 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:11:54,300 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:11:59,754 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:12:02,213 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:12:09,024 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:12:16,312 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:12:18,357 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:12:19,755 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:12:32,328 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:12:32,780 - ERROR - Error en el procesamiento: 'NoneType' object is not subscriptable
+2024-11-06 21:12:32,780 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:12:32,780 - INFO - Iniciando transformación...
+2024-11-06 21:12:32,790 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:12:32,790 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:12:32,790 - INFO - Iniciando carga...
+2024-11-06 21:12:32,790 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:12:36,389 - INFO - Índices creados exitosamente
+2024-11-06 21:12:36,389 - INFO - Carga completada
+2024-11-06 21:12:36,543 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:12:36,543 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:15:58,062 - INFO - Iniciando pipeline ETL
+2024-11-06 21:15:58,062 - INFO - Iniciando extracción...
+2024-11-06 21:16:12,724 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:16:18,852 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:16:19,256 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:16:20,378 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:16:36,961 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:17:01,497 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:17:06,312 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:17:08,304 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:17:21,609 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:17:22,023 - ERROR - Error en el procesamiento: 'NoneType' object is not subscriptable
+2024-11-06 21:17:22,023 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:17:22,023 - INFO - Iniciando transformación...
+2024-11-06 21:17:22,024 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:17:22,024 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:17:22,024 - INFO - Iniciando carga...
+2024-11-06 21:17:22,024 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:17:24,969 - INFO - Índices creados exitosamente
+2024-11-06 21:17:24,969 - INFO - Carga completada
+2024-11-06 21:17:25,122 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:17:25,122 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:18:25,354 - INFO - Iniciando pipeline ETL
+2024-11-06 21:18:25,354 - INFO - Iniciando extracción...
+2024-11-06 21:18:44,842 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:18:49,227 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:18:55,470 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:19:01,075 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:19:07,012 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:19:13,621 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:19:29,419 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:19:29,935 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:19:41,122 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:19:41,428 - ERROR - Error en el procesamiento: 'NoneType' object is not subscriptable
+2024-11-06 21:19:41,428 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:19:41,428 - INFO - Iniciando transformación...
+2024-11-06 21:19:41,438 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:19:41,438 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:19:41,438 - INFO - Iniciando carga...
+2024-11-06 21:19:41,438 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:19:43,676 - INFO - Índices creados exitosamente
+2024-11-06 21:19:43,676 - INFO - Carga completada
+2024-11-06 21:19:43,834 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:19:43,834 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:38:27,769 - INFO - Iniciando pipeline ETL
+2024-11-06 21:38:27,769 - INFO - Iniciando extracción...
+2024-11-06 21:38:45,184 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: recognition request failed: Bad Request
+2024-11-06 21:38:51,353 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: recognition request failed: Bad Request
+2024-11-06 21:38:55,635 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: recognition request failed: Bad Request
+2024-11-06 21:39:04,173 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: recognition request failed: Bad Request
+2024-11-06 21:39:05,024 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: recognition request failed: Bad Request
+2024-11-06 21:39:07,292 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: recognition request failed: Bad Request
+2024-11-06 21:39:18,488 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: recognition request failed: Bad Request
+2024-11-06 21:39:20,049 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: recognition request failed: Bad Request
+2024-11-06 21:39:32,336 - WARNING - Intento 3 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: recognition request failed: Bad Request
+2024-11-06 21:39:32,725 - ERROR - Error en el procesamiento: 'NoneType' object is not subscriptable
+2024-11-06 21:39:32,725 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:39:32,731 - INFO - Iniciando transformación...
+2024-11-06 21:39:32,731 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:39:32,731 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:39:32,731 - INFO - Iniciando carga...
+2024-11-06 21:39:32,731 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:39:35,027 - INFO - Índices creados exitosamente
+2024-11-06 21:39:35,027 - INFO - Carga completada
+2024-11-06 21:39:35,172 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:39:35,172 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:46:42,583 - INFO - Iniciando pipeline ETL
+2024-11-06 21:46:42,583 - INFO - Iniciando extracción...
+2024-11-06 21:46:59,805 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:47:10,384 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:47:22,487 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:47:49,894 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:48:06,793 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:48:24,061 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:48:58,853 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:49:29,589 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: missing PocketSphinx module: ensure that PocketSphinx is set up correctly.
+2024-11-06 21:49:42,046 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:49:42,174 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:49:42,174 - INFO - Iniciando transformación...
+2024-11-06 21:49:42,181 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:49:42,181 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:49:42,181 - INFO - Iniciando carga...
+2024-11-06 21:49:42,183 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:49:44,400 - INFO - Índices creados exitosamente
+2024-11-06 21:49:44,401 - INFO - Carga completada
+2024-11-06 21:49:44,547 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:49:44,547 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:50:17,873 - INFO - Iniciando pipeline ETL
+2024-11-06 21:50:17,873 - INFO - Iniciando extracción...
+2024-11-06 21:50:27,083 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:50:37,148 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:50:45,861 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 21:51:07,368 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:51:36,045 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:51:51,472 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 21:52:14,090 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:52:30,450 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav: missing PocketSphinx language data directory: "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\speech_recognition\pocketsphinx-data\es-ES"
+2024-11-06 21:52:42,979 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 21:52:43,112 - INFO - Extracción completada. 0 registros extraídos
+2024-11-06 21:52:43,112 - INFO - Iniciando transformación...
+2024-11-06 21:52:43,117 - INFO - Transformación completada: 0 registros exitosos
+2024-11-06 21:52:43,117 - INFO - Transformación completada. 0 registros transformados
+2024-11-06 21:52:43,117 - INFO - Iniciando carga...
+2024-11-06 21:52:43,119 - INFO - Carga completada: 0 exitosos, 0 fallidos
+2024-11-06 21:52:45,359 - INFO - Índices creados exitosamente
+2024-11-06 21:52:45,359 - INFO - Carga completada
+2024-11-06 21:52:45,512 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 21:52:45,512 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-06 21:55:09,562 - INFO - Iniciando pipeline ETL
+2024-11-06 21:55:09,562 - INFO - Iniciando extracción...
+2024-11-06 21:57:44,903 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: 'AudioFileStream' object has no attribute 'seek'
+2024-11-06 21:57:46,905 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: 'AudioFileStream' object has no attribute 'seek'
+2024-11-06 21:57:48,908 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 22:01:36,819 - INFO - Iniciando pipeline ETL
+2024-11-06 22:01:36,819 - INFO - Iniciando extracción...
+2024-11-06 22:05:45,577 - WARNING - Intento 1 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: recognition request failed: Bad Request
+2024-11-06 22:05:55,751 - WARNING - Intento 2 fallido para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav: recognition request failed: Bad Request
+2024-11-06 22:06:09,166 - ERROR - Todos los intentos fallidos para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 22:07:01,579 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-381' coro=<Client._gather.<locals>.wait() done, defined at C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-06 22:07:01,581 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-379' coro=<Client._gather.<locals>.wait() done, defined at C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-06 22:59:40,910 - INFO - Iniciando pipeline ETL
+2024-11-06 22:59:40,910 - INFO - Iniciando extracción...
+2024-11-06 22:59:40,943 - INFO - 
+Procesando archivo: A742-24.wav
+2024-11-06 22:59:40,943 - INFO - Iniciando división del archivo: C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 22:59:41,868 - INFO - El archivo será dividido en 10 segmentos
+2024-11-06 22:59:41,952 - INFO - Iniciando procesamiento de 10 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-06 22:59:42,624 - INFO - Procesando segmento 1/10 de A742-24
+2024-11-06 23:00:34,560 - INFO - Procesando segmento 2/10 de A742-24
+2024-11-06 23:01:29,198 - INFO - Procesando segmento 3/10 de A742-24
+2024-11-06 23:02:26,783 - INFO - Procesando segmento 4/10 de A742-24
+2024-11-06 23:03:15,210 - INFO - Procesando segmento 5/10 de A742-24
+2024-11-06 23:04:05,258 - INFO - Procesando segmento 6/10 de A742-24
+2024-11-06 23:05:04,419 - INFO - Procesando segmento 7/10 de A742-24
+2024-11-06 23:05:56,969 - INFO - Procesando segmento 8/10 de A742-24
+2024-11-06 23:06:41,512 - INFO - Procesando segmento 9/10 de A742-24
+2024-11-06 23:07:26,742 - INFO - Procesando segmento 10/10 de A742-24
+2024-11-06 23:07:51,391 - INFO - 
+Procesando archivo: C-440-22.wav
+2024-11-06 23:07:51,391 - INFO - Iniciando división del archivo: C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 23:07:54,101 - INFO - El archivo será dividido en 28 segmentos
+2024-11-06 23:07:54,330 - INFO - Iniciando procesamiento de 28 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-06 23:07:54,555 - INFO - Procesando segmento 1/28 de C-440-22
+2024-11-06 23:08:55,191 - INFO - Procesando segmento 2/28 de C-440-22
+2024-11-06 23:09:44,775 - INFO - Procesando segmento 3/28 de C-440-22
+2024-11-06 23:10:44,063 - INFO - Procesando segmento 4/28 de C-440-22
+2024-11-06 23:11:31,887 - INFO - Procesando segmento 5/28 de C-440-22
+2024-11-06 23:12:28,206 - INFO - Procesando segmento 6/28 de C-440-22
+2024-11-06 23:13:22,293 - INFO - Procesando segmento 7/28 de C-440-22
+2024-11-06 23:14:11,494 - INFO - Procesando segmento 8/28 de C-440-22
+2024-11-06 23:15:27,580 - INFO - Procesando segmento 9/28 de C-440-22
+2024-11-06 23:16:11,588 - INFO - Procesando segmento 10/28 de C-440-22
+2024-11-06 23:17:04,543 - INFO - Procesando segmento 11/28 de C-440-22
+2024-11-06 23:17:51,402 - INFO - Procesando segmento 12/28 de C-440-22
+2024-11-06 23:18:40,113 - INFO - Procesando segmento 13/28 de C-440-22
+2024-11-06 23:19:29,524 - INFO - Procesando segmento 14/28 de C-440-22
+2024-11-06 23:20:24,126 - INFO - Procesando segmento 15/28 de C-440-22
+2024-11-06 23:21:17,630 - INFO - Procesando segmento 16/28 de C-440-22
+2024-11-06 23:22:14,860 - INFO - Procesando segmento 17/28 de C-440-22
+2024-11-06 23:23:02,202 - INFO - Procesando segmento 18/28 de C-440-22
+2024-11-06 23:23:57,411 - INFO - Procesando segmento 19/28 de C-440-22
+2024-11-06 23:24:46,695 - INFO - Procesando segmento 20/28 de C-440-22
+2024-11-06 23:25:48,265 - INFO - Procesando segmento 21/28 de C-440-22
+2024-11-06 23:26:37,375 - INFO - Procesando segmento 22/28 de C-440-22
+2024-11-06 23:27:28,376 - INFO - Procesando segmento 23/28 de C-440-22
+2024-11-06 23:28:13,090 - INFO - Procesando segmento 24/28 de C-440-22
+2024-11-06 23:29:08,477 - INFO - Procesando segmento 25/28 de C-440-22
+2024-11-06 23:29:52,555 - INFO - Procesando segmento 26/28 de C-440-22
+2024-11-06 23:30:40,004 - INFO - Procesando segmento 27/28 de C-440-22
+2024-11-06 23:31:32,147 - INFO - Procesando segmento 28/28 de C-440-22
+2024-11-06 23:31:42,337 - INFO - 
+Procesando archivo: T-123-23.wav
+2024-11-06 23:31:42,337 - INFO - Iniciando división del archivo: C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 23:31:44,673 - INFO - El archivo será dividido en 22 segmentos
+2024-11-06 23:31:44,880 - INFO - Iniciando procesamiento de 22 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-06 23:31:45,112 - INFO - Procesando segmento 1/22 de T-123-23
+2024-11-06 23:32:37,600 - INFO - Procesando segmento 2/22 de T-123-23
+2024-11-06 23:33:24,858 - INFO - Procesando segmento 3/22 de T-123-23
+2024-11-06 23:34:09,974 - INFO - Procesando segmento 4/22 de T-123-23
+2024-11-06 23:35:04,612 - INFO - Procesando segmento 5/22 de T-123-23
+2024-11-06 23:35:54,888 - INFO - Procesando segmento 6/22 de T-123-23
+2024-11-06 23:36:44,042 - INFO - Procesando segmento 7/22 de T-123-23
+2024-11-06 23:37:45,517 - INFO - Procesando segmento 8/22 de T-123-23
+2024-11-06 23:38:31,902 - INFO - Procesando segmento 9/22 de T-123-23
+2024-11-06 23:39:15,509 - INFO - Procesando segmento 10/22 de T-123-23
+2024-11-06 23:39:59,821 - INFO - Procesando segmento 11/22 de T-123-23
+2024-11-06 23:40:42,569 - INFO - Procesando segmento 12/22 de T-123-23
+2024-11-06 23:41:44,707 - INFO - Procesando segmento 13/22 de T-123-23
+2024-11-06 23:42:31,972 - INFO - Procesando segmento 14/22 de T-123-23
+2024-11-06 23:43:22,442 - INFO - Procesando segmento 15/22 de T-123-23
+2024-11-06 23:44:08,770 - INFO - Procesando segmento 16/22 de T-123-23
+2024-11-06 23:44:51,942 - INFO - Procesando segmento 17/22 de T-123-23
+2024-11-06 23:45:46,940 - INFO - Procesando segmento 18/22 de T-123-23
+2024-11-06 23:46:33,502 - INFO - Procesando segmento 19/22 de T-123-23
+2024-11-06 23:47:20,151 - INFO - Procesando segmento 20/22 de T-123-23
+2024-11-06 23:48:08,255 - INFO - Procesando segmento 21/22 de T-123-23
+2024-11-06 23:49:06,132 - INFO - Procesando segmento 22/22 de T-123-23
+2024-11-06 23:50:04,096 - INFO - Extracción completada. 3 registros extraídos
+2024-11-06 23:50:04,097 - INFO - Iniciando transformación...
+2024-11-06 23:50:04,102 - WARNING - Formato de nombre no estándar: A742-24
+2024-11-06 23:50:04,139 - INFO - Transformación completada: 3 registros exitosos
+2024-11-06 23:50:04,139 - INFO - Transformación completada. 3 registros transformados
+2024-11-06 23:50:04,139 - INFO - Iniciando carga...
+2024-11-06 23:50:06,237 - INFO - Carga completada: 3 exitosos, 0 fallidos
+2024-11-06 23:50:07,360 - INFO - Índices creados exitosamente
+2024-11-06 23:50:07,360 - INFO - Carga completada
+2024-11-06 23:50:07,508 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-06 23:50:07,518 - INFO - Pipeline ETL completado exitosamente
+2024-11-07 00:07:50,154 - INFO - Iniciando pipeline ETL
+2024-11-07 00:07:50,154 - INFO - Iniciando extracción...
+2024-11-07 00:07:50,154 - ERROR - Error en el pipeline ETL: 'AudioExtractor' object has no attribute 'process_all_files'
+2024-11-07 00:09:32,128 - ERROR - Error en el pipeline ETL: MongoLoader.__init__() missing 1 required positional argument: 'mongodb_uri'
+2024-11-07 00:10:49,332 - INFO - Iniciando pipeline ETL
+2024-11-07 00:10:49,332 - INFO - Iniciando extracción...
+2024-11-07 00:10:53,626 - INFO - Iniciando procesamiento con Dask: http://127.0.0.1:8787/status
+2024-11-07 00:15:13,773 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-335' coro=<Client._gather.<locals>.wait() done, defined at C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-07 00:15:13,776 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-333' coro=<Client._gather.<locals>.wait() done, defined at C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-07 00:15:13,776 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-334' coro=<Client._gather.<locals>.wait() done, defined at C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py:2385> exception=AllExit()>
+Traceback (most recent call last):
+  File "C:\Users\JhoanSebastianBeltrá\Documents\bigdata\providencias_etl\myenv\Lib\site-packages\distributed\client.py", line 2394, in wait
+    raise AllExit()
+distributed.client.AllExit
+2024-11-07 00:15:17,853 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-07 00:17:06,469 - INFO - Iniciando pipeline ETL
+2024-11-07 00:17:06,469 - INFO - Iniciando extracción...
+2024-11-07 00:17:06,469 - ERROR - Error en el pipeline ETL: 'AudioExtractor' object has no attribute 'process_all_files'
+2024-11-07 00:17:22,445 - INFO - Iniciando pipeline ETL
+2024-11-07 00:17:22,445 - INFO - Iniciando extracción...
+2024-11-07 00:17:25,882 - INFO - Procesando 10 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-07 00:17:28,818 - INFO - Procesando 22 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-07 00:17:30,437 - INFO - Procesando 28 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-07 00:17:44,693 - ERROR - Error procesando archivo C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav: A process in the process pool was terminated abruptly while the future was running or pending.
+2024-11-07 00:21:03,773 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-07 00:21:08,782 - INFO - Iniciando pipeline ETL
+2024-11-07 00:21:08,782 - INFO - Iniciando extracción...
+2024-11-07 00:21:08,790 - INFO - Iniciando procesamiento de: A742-24.wav
+2024-11-07 00:21:09,043 - INFO - Procesando 16 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\A742-24.wav
+2024-11-07 00:29:28,313 - INFO - Iniciando procesamiento de: C-440-22.wav
+2024-11-07 00:29:29,157 - INFO - Procesando 46 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\C-440-22.wav
+2024-11-07 00:52:34,114 - INFO - Iniciando procesamiento de: T-123-23.wav
+2024-11-07 00:52:34,835 - INFO - Procesando 37 chunks para C:\Users\JhoanSebastianBeltrá\Documents\bigdata\DataSet\T-123-23.wav
+2024-11-07 01:10:06,021 - INFO - Extracción completada. 3 registros extraídos
+2024-11-07 01:10:06,021 - INFO - Iniciando transformación...
+2024-11-07 01:10:06,023 - ERROR - Error en el pipeline ETL: too many values to unpack (expected 2)
+2024-11-07 01:10:06,032 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-07 23:51:57,459 - INFO - Iniciando pipeline ETL
+2024-11-07 23:51:57,459 - INFO - Iniciando extracción...
+2024-11-07 23:51:57,489 - INFO - Procesando: A742-24.wav
+2024-11-07 23:53:40,852 - INFO - Procesando: C-440-22.wav
+2024-11-07 23:57:26,904 - INFO - Procesando: T-123-23.wav
+2024-11-08 00:00:51,636 - INFO - Extracción completada. 3 registros extraídos
+2024-11-08 00:00:51,636 - INFO - Iniciando transformación...
+2024-11-08 00:00:51,636 - WARNING - Formato de nombre no estándar: A742-24
+2024-11-08 00:00:51,673 - INFO - Transformación completada: 3 registros exitosos
+2024-11-08 00:00:51,673 - INFO - Transformación completada. 3 registros transformados
+2024-11-08 00:00:51,673 - INFO - Iniciando carga...
+2024-11-08 00:00:55,613 - INFO - Carga completada: 3 exitosos, 0 fallidos
+2024-11-08 00:00:56,718 - INFO - Índices creados exitosamente
+2024-11-08 00:00:56,718 - INFO - Carga completada
+2024-11-08 00:00:56,872 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-08 00:00:56,872 - INFO - Pipeline ETL completado exitosamente
+2024-11-08 00:29:48,480 - INFO - Iniciando pipeline ETL
+2024-11-08 00:29:48,480 - INFO - Iniciando extracción...
+2024-11-08 00:29:48,490 - INFO - Procesando: A742-24.wav
+2024-11-08 00:31:30,667 - INFO - Procesando: C-440-22.wav
+2024-11-08 00:35:05,843 - INFO - Procesando: T-123-23.wav
+2024-11-08 00:37:59,980 - INFO - Extracción completada. 3 registros extraídos
+2024-11-08 00:37:59,980 - INFO - Iniciando transformación...
+2024-11-08 00:37:59,980 - INFO - Transformación completada: 3 registros exitosos
+2024-11-08 00:37:59,980 - INFO - Transformación completada. 3 registros transformados
+2024-11-08 00:37:59,980 - INFO - Iniciando carga...
+2024-11-08 00:38:01,820 - INFO - Carga completada: 3 exitosos, 0 fallidos
+2024-11-08 00:38:03,542 - INFO - Índices creados exitosamente
+2024-11-08 00:38:03,542 - INFO - Carga completada
+2024-11-08 00:38:03,693 - INFO - Conexión a MongoDB cerrada exitosamente
+2024-11-08 00:38:03,693 - INFO - Pipeline ETL completado exitosamente
+2024-11-08 00:39:24,913 - INFO - Iniciando pipeline ETL
+2024-11-08 00:39:24,913 - INFO - Iniciando extracción...
+2024-11-08 00:39:24,922 - INFO - Procesando: A742-24.wav
+2024-11-08 00:41:01,170 - INFO - Procesando: C-440-22.wav
+2024-11-08 00:45:03,035 - INFO - Procesando: T-123-23.wav
+2024-11-08 00:48:11,654 - INFO - Extracción completada. 3 registros extraídos
+2024-11-08 00:48:11,654 - INFO - Iniciando transformación...
+2024-11-08 00:48:11,664 - INFO - Transformación completada: 3 registros exitosos
+2024-11-08 00:48:11,664 - INFO - Transformación completada. 3 registros transformados
+2024-11-08 00:48:11,664 - INFO - Iniciando carga...
+2024-11-08 00:48:18,371 - INFO - Carga completada: 3 exitosos, 0 fallidos
+2024-11-08 00:48:18,532 - ERROR - Error creando índices: An existing index has the same name as the requested index. When index names are not specified, they are auto generated and can cause conflicts. Please refer to our documentation. Requested index: { v: 2, unique: true, key: { providencia: 1 }, name: "providencia_1" }, existing index: { v: 2, key: { providencia: 1 }, name: "providencia_1" }, full error: {'ok': 0.0, 'errmsg': 'An existing index has the same name as the requested index. When index names are not specified, they are auto generated and can cause conflicts. Please refer to our documentation. Requested index: { v: 2, unique: true, key: { providencia: 1 }, name: "providencia_1" }, existing index: { v: 2, key: { providencia: 1 }, name: "providencia_1" }', 'code': 86, 'codeName': 'IndexKeySpecsConflict', '$clusterTime': {'clusterTime': Timestamp(1731044899, 6), 'signature': {'hash': b'\x97\x84d\\`{\x80\xd1\xb5\xdd\xde\xfb/\xb0\xb6Mht/\xe4', 'keyId': 7400403035270152193}}, 'operationTime': Timestamp(1731044899, 6)}
+2024-11-08 00:48:18,532 - ERROR - Error en el pipeline ETL: An existing index has the same name as the requested index. When index names are not specified, they are auto generated and can cause conflicts. Please refer to our documentation. Requested index: { v: 2, unique: true, key: { providencia: 1 }, name: "providencia_1" }, existing index: { v: 2, key: { providencia: 1 }, name: "providencia_1" }, full error: {'ok': 0.0, 'errmsg': 'An existing index has the same name as the requested index. When index names are not specified, they are auto generated and can cause conflicts. Please refer to our documentation. Requested index: { v: 2, unique: true, key: { providencia: 1 }, name: "providencia_1" }, existing index: { v: 2, key: { providencia: 1 }, name: "providencia_1" }', 'code': 86, 'codeName': 'IndexKeySpecsConflict', '$clusterTime': {'clusterTime': Timestamp(1731044899, 6), 'signature': {'hash': b'\x97\x84d\\`{\x80\xd1\xb5\xdd\xde\xfb/\xb0\xb6Mht/\xe4', 'keyId': 7400403035270152193}}, 'operationTime': Timestamp(1731044899, 6)}
+2024-11-08 00:53:26,177 - INFO - Iniciando pipeline ETL
+2024-11-08 00:53:26,177 - INFO - Iniciando extracción...
+2024-11-08 00:53:26,187 - INFO - Procesando: A742-24.wav
+2024-11-08 00:55:12,394 - INFO - Procesando: C-440-22.wav
+2024-11-08 00:59:20,453 - INFO - Iniciando pipeline ETL
+2024-11-08 00:59:20,453 - INFO - Iniciando extracción...
+2024-11-08 00:59:20,463 - INFO - Procesando: A742-24.wav
+2024-11-08 01:01:02,242 - INFO - Procesando: C-440-22.wav
+2024-11-08 01:04:51,096 - INFO - Procesando: T-123-23.wav
+2024-11-08 01:07:57,997 - INFO - Extracción completada. 3 registros extraídos
+2024-11-08 01:07:57,997 - INFO - Iniciando transformación...
+2024-11-08 01:07:58,010 - INFO - Transformación completada: 3 registros exitosos
+2024-11-08 01:07:58,010 - INFO - Transformación completada. 3 registros transformados
+2024-11-08 01:07:58,010 - INFO - Iniciando carga...
+2024-11-08 01:07:59,817 - INFO - Carga completada en 1.81s: 3 exitosos, 0 fallidos
+2024-11-08 01:08:00,238 - INFO - Índices creados exitosamente
+2024-11-08 01:08:00,238 - INFO - Carga completada
+2024-11-08 01:08:00,386 - INFO - Conexión cerrada
+2024-11-08 01:08:00,396 - INFO - Pipeline ETL completado exitosamente
+2024-11-17 22:10:21,481 - INFO - Iniciando pipeline ETL
+2024-11-17 22:10:21,481 - INFO - Iniciando extracción...
+2024-11-17 22:10:21,515 - INFO - Procesando: A742-24.wav
+2024-11-17 22:12:01,509 - INFO - Iniciando pipeline ETL
+2024-11-17 22:12:01,509 - INFO - Iniciando extracción...
+2024-11-17 22:12:01,520 - INFO - Procesando: A053-24.wav
+2024-11-17 22:13:13,464 - INFO - Procesando: A266-24.wav
+2024-11-17 22:14:45,471 - INFO - Procesando: A276-09.wav
+2024-11-17 22:16:55,606 - INFO - Procesando: A317-21.wav
+2024-11-17 22:17:36,462 - INFO - Procesando: A318-21.wav
+2024-11-17 22:19:44,426 - INFO - Procesando: A324-20.wav
+2024-11-17 22:21:42,835 - INFO - Procesando: A441-20.wav
+2024-11-17 22:22:44,025 - INFO - Procesando: A469-20.wav
+2024-11-17 22:23:54,528 - INFO - Procesando: A499-21.wav
+2024-11-17 22:25:02,584 - INFO - Procesando: A553-24.wav
+2024-11-17 22:26:18,371 - INFO - Procesando: A615-23.wav
+2024-11-17 22:27:39,879 - INFO - Procesando: A742-24.wav
+2024-11-17 22:29:20,631 - INFO - Procesando: A826-21.wav
+2024-11-17 22:31:31,633 - INFO - Procesando: C-440-22.wav
+2024-11-17 22:35:39,098 - INFO - Procesando: C-529-10.wav
+2024-11-17 22:40:49,014 - INFO - Procesando: T-012-24.wav
+2024-11-17 22:46:01,808 - INFO - Procesando: T-099-20.wav
+2024-11-17 22:50:11,353 - INFO - Procesando: T-107-20.wav
+2024-11-17 22:53:14,520 - INFO - Procesando: T-123-23.wav
+2024-11-17 22:56:43,462 - INFO - Procesando: T-198-21.wav
+2024-11-17 22:58:45,552 - INFO - Procesando: T-309-21.wav
+2024-11-17 23:02:43,609 - INFO - Extracción completada. 21 registros extraídos
+2024-11-17 23:02:43,609 - INFO - Iniciando transformación...
+2024-11-17 23:02:43,628 - INFO - Transformación completada: 21 registros exitosos
+2024-11-17 23:02:43,628 - INFO - Transformación completada. 21 registros transformados
+2024-11-17 23:02:43,628 - INFO - Iniciando carga...
+2024-11-17 23:02:46,094 - INFO - Carga completada en 2.46s: 21 exitosos, 0 fallidos
+2024-11-17 23:02:46,440 - INFO - Índices creados exitosamente
+2024-11-17 23:02:46,440 - INFO - Carga completada
+2024-11-17 23:02:46,591 - INFO - Conexión cerrada
+2024-11-17 23:02:46,593 - INFO - Pipeline ETL completado exitosamente
+2024-11-22 14:46:28,766 - INFO - Iniciando pipeline ETL
+2024-11-22 14:46:28,766 - INFO - Iniciando extracción...
+2024-11-22 14:46:28,841 - INFO - Procesando: A053-24.wav
+2024-11-22 14:49:59,482 - ERROR - Error en chunk 4 de A053-24: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 14:50:01,164 - ERROR - Error en chunk 2 de A053-24: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 14:50:30,288 - ERROR - Error en chunk 3 de A053-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 14:50:30,670 - INFO - Procesando: A266-24.wav
+2024-11-22 14:51:07,700 - ERROR - Error en chunk 2 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,700 - ERROR - Error en chunk 3 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,700 - ERROR - Error en chunk 6 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,701 - ERROR - Error en chunk 5 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,700 - ERROR - Error en chunk 1 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,702 - ERROR - Error en chunk 4 de A266-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:07,808 - INFO - Procesando: A276-09.wav
+2024-11-22 14:51:48,157 - ERROR - Error en chunk 1 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,169 - ERROR - Error en chunk 4 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,171 - ERROR - Error en chunk 3 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,409 - ERROR - Error en chunk 2 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,413 - ERROR - Error en chunk 7 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,415 - ERROR - Error en chunk 6 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:51:48,445 - ERROR - Error en chunk 5 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 14:52:02,630 - ERROR - Error en chunk 9 de A276-09: recognition connection failed: [Errno 11001] getaddrinfo failed
+
+2024-11-22 14:52:02,764 - INFO - Procesando: A317-21.wav
+2024-11-22 14:52:51,949 - INFO - Procesando: A318-21.wav
+2024-11-22 14:56:03,525 - INFO - Procesando: A324-20.wav
+2024-11-22 14:56:40,169 - ERROR - Error en chunk 1 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:40,887 - ERROR - Error en chunk 2 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:41,151 - ERROR - Error en chunk 4 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:41,245 - ERROR - Error en chunk 5 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:41,276 - ERROR - Error en chunk 3 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:41,463 - ERROR - Error en chunk 6 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:56:41,633 - ERROR - Error en chunk 7 de A324-20: recognition connection failed: [WinError 10051] Se ha intentado una operación de socket en una red no accesible
+2024-11-22 14:59:38,369 - ERROR - Error en chunk 8 de A324-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 14:59:56,578 - ERROR - Error en chunk 9 de A324-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 14:59:56,655 - INFO - Procesando: A441-20.wav
+2024-11-22 15:01:11,181 - INFO - Procesando: A469-20.wav
+2024-11-22 15:02:17,002 - ERROR - Error en chunk 3 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:02:59,342 - ERROR - Error en chunk 2 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:03:21,616 - ERROR - Error en chunk 7 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:03:39,180 - ERROR - Error en chunk 5 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:03:44,855 - ERROR - Error en chunk 1 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:03:45,427 - ERROR - Error en chunk 4 de A469-20: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:04:16,185 - INFO - Procesando: A499-21.wav
+2024-11-22 15:08:24,239 - ERROR - Error en chunk 2 de A499-21: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:08:24,239 - ERROR - Error en chunk 4 de A499-21: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:08:24,244 - ERROR - Error en chunk 1 de A499-21: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:08:25,271 - INFO - Procesando: A553-24.wav
+2024-11-22 15:08:40,417 - ERROR - Error en chunk 1 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:40,899 - ERROR - Error en chunk 7 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:40,983 - ERROR - Error en chunk 2 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:41,135 - ERROR - Error en chunk 3 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:41,176 - ERROR - Error en chunk 4 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:41,196 - ERROR - Error en chunk 6 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:41,196 - ERROR - Error en chunk 5 de A553-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:41,272 - INFO - Procesando: A615-23.wav
+2024-11-22 15:08:55,698 - ERROR - Error en chunk 1 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:55,799 - ERROR - Error en chunk 2 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:55,924 - ERROR - Error en chunk 7 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:56,114 - ERROR - Error en chunk 3 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:56,350 - ERROR - Error en chunk 5 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:56,353 - ERROR - Error en chunk 6 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:56,356 - ERROR - Error en chunk 4 de A615-23: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:08:56,486 - INFO - Procesando: A742-24.wav
+2024-11-22 15:09:09,129 - ERROR - Error en chunk 1 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,408 - ERROR - Error en chunk 2 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,509 - ERROR - Error en chunk 3 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,573 - ERROR - Error en chunk 4 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,636 - ERROR - Error en chunk 5 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,718 - ERROR - Error en chunk 6 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:09,821 - ERROR - Error en chunk 7 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:10,357 - ERROR - Error en chunk 10 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:10,696 - ERROR - Error en chunk 8 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:10,802 - ERROR - Error en chunk 9 de A742-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:10,881 - INFO - Procesando: A826-21.wav
+2024-11-22 15:09:29,175 - ERROR - Error en chunk 1 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,284 - ERROR - Error en chunk 2 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,416 - ERROR - Error en chunk 3 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,423 - ERROR - Error en chunk 5 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,559 - ERROR - Error en chunk 4 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,594 - ERROR - Error en chunk 6 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:29,631 - ERROR - Error en chunk 7 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:30,566 - ERROR - Error en chunk 13 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,280 - ERROR - Error en chunk 8 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,378 - ERROR - Error en chunk 9 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,422 - ERROR - Error en chunk 12 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,428 - ERROR - Error en chunk 10 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,429 - ERROR - Error en chunk 11 de A826-21: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:09:31,524 - INFO - Procesando: C-440-22.wav
+2024-11-22 15:09:56,251 - ERROR - Error en chunk 5 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:56,251 - ERROR - Error en chunk 6 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,389 - ERROR - Error en chunk 8 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,464 - ERROR - Error en chunk 9 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,602 - ERROR - Error en chunk 10 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,846 - ERROR - Error en chunk 11 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,848 - ERROR - Error en chunk 12 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,858 - ERROR - Error en chunk 13 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:09:58,907 - ERROR - Error en chunk 14 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:00,574 - ERROR - Error en chunk 16 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:00,627 - ERROR - Error en chunk 15 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:04,031 - ERROR - Error en chunk 18 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:04,031 - ERROR - Error en chunk 21 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:04,031 - ERROR - Error en chunk 22 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:05,038 - ERROR - Error en chunk 28 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:05,809 - ERROR - Error en chunk 24 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:05,870 - ERROR - Error en chunk 25 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:05,918 - ERROR - Error en chunk 26 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:05,921 - ERROR - Error en chunk 27 de C-440-22: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:06,084 - INFO - Procesando: C-529-10.wav
+2024-11-22 15:10:45,682 - ERROR - Error en chunk 1 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:45,682 - ERROR - Error en chunk 6 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:45,682 - ERROR - Error en chunk 3 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:47,922 - ERROR - Error en chunk 8 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,078 - ERROR - Error en chunk 10 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,151 - ERROR - Error en chunk 9 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,484 - ERROR - Error en chunk 11 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,519 - ERROR - Error en chunk 13 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,680 - ERROR - Error en chunk 14 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:48,816 - ERROR - Error en chunk 12 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:50,086 - ERROR - Error en chunk 15 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:50,440 - ERROR - Error en chunk 16 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:50,490 - ERROR - Error en chunk 17 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:10:50,528 - ERROR - Error en chunk 19 de C-529-10: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 15:13:49,507 - ERROR - Error en chunk 35 de C-529-10: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 15:15:36,981 - INFO - Procesando: T-012-24.wav
+2024-11-22 15:17:52,880 - ERROR - Error en chunk 9 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:52,881 - ERROR - Error en chunk 8 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:52,884 - ERROR - Error en chunk 11 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:52,884 - ERROR - Error en chunk 10 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:52,911 - ERROR - Error en chunk 12 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:52,913 - ERROR - Error en chunk 13 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:17:53,235 - ERROR - Error en chunk 14 de T-012-24: recognition connection failed: [Errno 11001] getaddrinfo failed
+2024-11-22 15:21:21,442 - INFO - Iniciando pipeline ETL
+2024-11-22 15:21:21,442 - INFO - Iniciando extracción...
+2024-11-22 15:21:21,463 - INFO - Procesando: A053-24.wav
+2024-11-22 15:23:45,764 - ERROR - Error en chunk 1 de A053-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,765 - ERROR - Error en chunk 2 de A053-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,766 - ERROR - Error en chunk 3 de A053-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,795 - ERROR - Error en chunk 33 de T-012-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,809 - ERROR - Error en chunk 4 de A053-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,810 - ERROR - Error en chunk 30 de T-012-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:45,826 - ERROR - Error en chunk 32 de T-012-24: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2024-11-22 15:23:47,953 - INFO - Procesando: A266-24.wav
+2024-11-22 15:25:39,293 - INFO - Procesando: A276-09.wav
+2024-11-22 15:28:23,700 - INFO - Procesando: A317-21.wav
+2024-11-22 15:29:15,238 - INFO - Procesando: A318-21.wav
+2024-11-22 15:32:49,787 - INFO - Procesando: A324-20.wav
+2024-11-22 15:35:58,539 - INFO - Procesando: A441-20.wav
+2024-11-22 15:37:14,787 - INFO - Procesando: A469-20.wav
+2024-11-22 15:39:41,638 - INFO - Procesando: A499-21.wav
+2024-11-22 15:41:09,913 - INFO - Procesando: A553-24.wav
+2024-11-22 15:43:04,690 - INFO - Procesando: A615-23.wav
+2024-11-22 15:44:48,106 - INFO - Procesando: A742-24.wav
+2024-11-22 15:47:33,889 - INFO - Procesando: A826-21.wav
+2024-11-22 15:50:43,342 - INFO - Procesando: C-440-22.wav
+2024-11-22 15:55:56,332 - INFO - Procesando: C-529-10.wav
+2024-11-22 16:01:53,983 - INFO - Procesando: T-012-24.wav
+2024-11-22 16:08:28,856 - INFO - Procesando: T-099-20.wav
+2024-11-22 16:13:27,724 - INFO - Procesando: T-107-20.wav
+2024-11-22 16:17:40,190 - INFO - Procesando: T-123-23.wav
+2024-11-22 16:20:26,015 - ERROR - Error en chunk 21 de T-123-23: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:20:26,944 - ERROR - Error en chunk 22 de T-123-23: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:21:43,446 - INFO - Procesando: T-198-21.wav
+2024-11-22 16:23:04,495 - ERROR - Error en chunk 8 de T-198-21: recognition connection failed: [Errno 11004] getaddrinfo failed
+2024-11-22 16:23:05,613 - ERROR - Error en chunk 9 de T-198-21: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:23:06,929 - ERROR - Error en chunk 10 de T-198-21: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:23:07,113 - ERROR - Error en chunk 11 de T-198-21: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:23:07,188 - ERROR - Error en chunk 12 de T-198-21: recognition connection failed: [Errno 11002] getaddrinfo failed
+2024-11-22 16:24:24,202 - INFO - Procesando: T-309-21.wav
+2024-11-22 16:27:15,351 - ERROR - Error en chunk 4 de T-309-21: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2024-11-22 16:31:55,975 - INFO - Extracción completada. 20 registros extraídos
+2024-11-22 16:31:55,976 - INFO - Iniciando transformación...
+2024-11-22 16:31:56,024 - INFO - Transformación completada: 20 registros exitosos
+2024-11-22 16:31:56,025 - INFO - Transformación completada. 20 registros transformados
+2024-11-22 16:31:56,025 - INFO - Iniciando carga...
+2024-11-22 16:31:59,295 - INFO - Carga completada en 3.27s: 16 exitosos, 0 fallidos
+2024-11-22 16:31:59,689 - INFO - Índices creados exitosamente
+2024-11-22 16:31:59,689 - INFO - Carga completada
+2024-11-22 16:31:59,875 - INFO - Conexión cerrada
+2024-11-22 16:31:59,877 - INFO - Pipeline ETL completado exitosamente
+2024-11-22 19:13:42,468 - INFO - Iniciando pipeline ETL
+2024-11-22 19:13:42,468 - INFO - Iniciando extracción...
+2024-11-22 19:13:42,481 - INFO - Procesando: A053-24.wav
+2024-11-22 19:15:13,345 - INFO - Procesando: A266-24.wav
+2024-11-22 19:16:50,526 - INFO - Procesando: A276-09.wav
+2024-11-22 19:19:22,550 - INFO - Procesando: A317-21.wav
+2024-11-22 19:20:10,708 - INFO - Procesando: A318-21.wav
+2024-11-22 19:22:53,386 - INFO - Procesando: A324-20.wav
+2024-11-22 19:25:25,597 - INFO - Procesando: A441-20.wav
+2024-11-22 19:26:38,377 - INFO - Procesando: A469-20.wav
+2024-11-22 19:28:18,936 - INFO - Procesando: A499-21.wav
+2024-11-22 19:29:42,222 - INFO - Procesando: A553-24.wav
+2024-11-22 19:31:17,973 - INFO - Procesando: A615-23.wav
+2024-11-22 19:33:18,515 - INFO - Procesando: A742-24.wav
+2024-11-22 19:35:25,347 - INFO - Procesando: A826-21.wav
+2024-11-22 19:37:55,653 - INFO - Procesando: C-440-22.wav
+2024-11-22 19:42:45,700 - INFO - Procesando: C-529-10.wav
+2024-11-22 19:48:48,906 - INFO - Procesando: T-012-24.wav
+2024-11-22 19:55:01,792 - INFO - Procesando: T-099-20.wav
+2024-11-22 20:00:07,433 - INFO - Procesando: T-107-20.wav
+2024-11-22 20:04:09,411 - INFO - Procesando: T-123-23.wav
+2024-11-22 20:08:05,983 - INFO - Procesando: T-198-21.wav
+2024-11-22 20:10:37,049 - INFO - Procesando: T-309-21.wav
+2024-11-22 20:14:57,899 - INFO - Extracción completada. 21 registros extraídos
+2024-11-22 20:14:57,900 - INFO - Iniciando transformación...
+2024-11-22 20:14:58,008 - INFO - Transformación completada: 21 registros exitosos
+2024-11-22 20:14:58,008 - INFO - Transformación completada. 21 registros transformados
+2024-11-22 20:14:58,008 - INFO - Iniciando carga...
+2024-11-22 20:15:01,923 - INFO - Carga completada en 3.91s: 18 exitosos, 0 fallidos
+2024-11-22 20:15:02,508 - INFO - Índices creados exitosamente
+2024-11-22 20:15:02,508 - INFO - Carga completada
+2024-11-22 20:15:02,718 - INFO - Conexión cerrada
+2024-11-22 20:15:02,723 - INFO - Pipeline ETL completado exitosamente
+2024-11-27 00:11:27,664 - INFO - Iniciando pipeline ETL
+2024-11-27 00:11:27,669 - INFO - Iniciando extracción...
+2024-11-27 00:11:27,676 - INFO - Procesando: A053-24.wav
+2024-11-27 00:11:32,162 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:11:32,211 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:11:32,212 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:11:32,233 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:11:32,299 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:11:32,301 - INFO - Iniciando transformación...
+2024-11-27 00:11:32,302 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:11:32,302 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:11:32,302 - INFO - Iniciando carga...
+2024-11-27 00:11:32,302 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:11:33,145 - INFO - Índices creados exitosamente
+2024-11-27 00:11:33,145 - INFO - Carga completada
+2024-11-27 00:11:33,261 - INFO - Conexión cerrada
+2024-11-27 00:11:33,261 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:18:45,298 - INFO - Iniciando pipeline ETL
+2024-11-27 00:18:45,298 - INFO - Iniciando extracción...
+2024-11-27 00:18:45,307 - INFO - Procesando: A053-24.wav
+2024-11-27 00:18:49,015 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:18:49,051 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:18:49,068 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:18:49,131 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:18:49,194 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:18:49,195 - INFO - Iniciando transformación...
+2024-11-27 00:18:49,196 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:18:49,196 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:18:49,196 - INFO - Iniciando carga...
+2024-11-27 00:18:49,196 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:18:50,047 - INFO - Índices creados exitosamente
+2024-11-27 00:18:50,047 - INFO - Carga completada
+2024-11-27 00:18:50,163 - INFO - Conexión cerrada
+2024-11-27 00:18:50,164 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:20:24,731 - INFO - Iniciando pipeline ETL
+2024-11-27 00:20:24,731 - INFO - Iniciando extracción...
+2024-11-27 00:20:24,738 - INFO - Procesando: A053-24.wav
+2024-11-27 00:20:27,922 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:20:27,957 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:20:27,976 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:20:28,009 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:20:28,056 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:20:28,056 - INFO - Iniciando transformación...
+2024-11-27 00:20:28,057 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:20:28,057 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:20:28,057 - INFO - Iniciando carga...
+2024-11-27 00:20:28,057 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:20:28,932 - INFO - Índices creados exitosamente
+2024-11-27 00:20:28,932 - INFO - Carga completada
+2024-11-27 00:20:29,053 - INFO - Conexión cerrada
+2024-11-27 00:20:29,053 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:21:50,890 - INFO - Iniciando pipeline ETL
+2024-11-27 00:21:50,890 - INFO - Iniciando extracción...
+2024-11-27 00:21:50,895 - INFO - Procesando: A053-24.wav
+2024-11-27 00:21:53,130 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:21:53,161 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:21:53,192 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:21:53,219 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:21:53,257 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:21:53,258 - INFO - Iniciando transformación...
+2024-11-27 00:21:53,259 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:21:53,259 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:21:53,259 - INFO - Iniciando carga...
+2024-11-27 00:21:53,259 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:21:54,101 - INFO - Índices creados exitosamente
+2024-11-27 00:21:54,102 - INFO - Carga completada
+2024-11-27 00:21:54,217 - INFO - Conexión cerrada
+2024-11-27 00:21:54,218 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:22:19,249 - INFO - Iniciando pipeline ETL
+2024-11-27 00:22:19,250 - INFO - Iniciando extracción...
+2024-11-27 00:22:19,256 - INFO - Procesando: A053-24.wav
+2024-11-27 00:22:21,742 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:22:21,787 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:22:21,822 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:22:21,847 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:22:21,887 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:22:21,887 - INFO - Iniciando transformación...
+2024-11-27 00:22:21,888 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:22:21,889 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:22:21,889 - INFO - Iniciando carga...
+2024-11-27 00:22:21,889 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:22:22,742 - INFO - Índices creados exitosamente
+2024-11-27 00:22:22,742 - INFO - Carga completada
+2024-11-27 00:22:22,858 - INFO - Conexión cerrada
+2024-11-27 00:22:22,859 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:27:43,338 - INFO - Iniciando pipeline ETL
+2024-11-27 00:27:43,339 - INFO - Iniciando extracción...
+2024-11-27 00:27:43,345 - INFO - Procesando: A053-24.wav
+2024-11-27 00:27:47,245 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:27:47,297 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:27:47,374 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:27:47,387 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:27:47,439 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:27:47,439 - INFO - Iniciando transformación...
+2024-11-27 00:27:47,440 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:27:47,440 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:27:47,440 - INFO - Iniciando carga...
+2024-11-27 00:27:47,440 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:27:48,297 - INFO - Índices creados exitosamente
+2024-11-27 00:27:48,297 - INFO - Carga completada
+2024-11-27 00:27:48,414 - INFO - Conexión cerrada
+2024-11-27 00:27:48,414 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 00:49:58,709 - INFO - Iniciando pipeline ETL
+2024-11-27 00:49:58,710 - INFO - Iniciando extracción...
+2024-11-27 00:49:58,716 - INFO - Procesando: A053-24.wav
+2024-11-27 00:50:02,275 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:50:02,324 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:50:02,348 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:50:02,376 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 00:50:02,422 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 00:50:02,422 - INFO - Iniciando transformación...
+2024-11-27 00:50:02,424 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 00:50:02,424 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 00:50:02,424 - INFO - Iniciando carga...
+2024-11-27 00:50:02,425 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 00:50:03,272 - INFO - Índices creados exitosamente
+2024-11-27 00:50:03,273 - INFO - Carga completada
+2024-11-27 00:50:03,389 - INFO - Conexión cerrada
+2024-11-27 00:50:03,390 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 01:00:24,032 - INFO - Iniciando pipeline ETL
+2024-11-27 01:00:24,032 - INFO - Iniciando extracción...
+2024-11-27 01:00:24,038 - INFO - Procesando: A053-24.wav
+2024-11-27 01:00:26,719 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:00:26,749 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:00:26,776 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:00:26,808 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:00:26,844 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 01:00:26,845 - INFO - Iniciando transformación...
+2024-11-27 01:00:26,845 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 01:00:26,846 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 01:00:26,846 - INFO - Iniciando carga...
+2024-11-27 01:00:26,847 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 01:00:27,700 - INFO - Índices creados exitosamente
+2024-11-27 01:00:27,700 - INFO - Carga completada
+2024-11-27 01:00:27,816 - INFO - Conexión cerrada
+2024-11-27 01:00:27,817 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 01:18:35,257 - INFO - Iniciando pipeline ETL
+2024-11-27 01:18:35,258 - INFO - Iniciando extracción...
+2024-11-27 01:18:35,264 - INFO - Procesando: A053-24.wav
+2024-11-27 01:18:38,080 - ERROR - Error en chunk 1 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:18:38,127 - ERROR - Error en chunk 2 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:18:38,162 - ERROR - Error en chunk 3 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:18:38,179 - ERROR - Error en chunk 4 de A053-24: [WinError 2] The system cannot find the file specified
+2024-11-27 01:18:38,215 - INFO - Extracción completada. 0 registros extraídos
+2024-11-27 01:18:38,215 - INFO - Iniciando transformación...
+2024-11-27 01:18:38,216 - INFO - Transformación completada: 0 registros exitosos
+2024-11-27 01:18:38,216 - INFO - Transformación completada. 0 registros transformados
+2024-11-27 01:18:38,217 - INFO - Iniciando carga...
+2024-11-27 01:18:38,217 - INFO - Carga completada en 0.00s: 0 exitosos, 0 fallidos
+2024-11-27 01:18:39,079 - INFO - Índices creados exitosamente
+2024-11-27 01:18:39,079 - INFO - Carga completada
+2024-11-27 01:18:39,195 - INFO - Conexión cerrada
+2024-11-27 01:18:39,195 - ERROR - Error en el pipeline ETL: division by zero
+2024-11-27 02:04:12,353 - INFO - Iniciando pipeline ETL
+2024-11-27 02:04:12,354 - INFO - Iniciando extracción...
+2024-11-27 02:04:12,362 - INFO - Procesando: A053-24.wav
+2024-11-27 02:05:09,612 - INFO - Extracción completada. 1 registros extraídos
+2024-11-27 02:05:09,613 - INFO - Iniciando transformación...
+2024-11-27 02:05:09,615 - INFO - Transformación completada: 1 registros exitosos
+2024-11-27 02:05:09,615 - INFO - Transformación completada. 1 registros transformados
+2024-11-27 02:05:09,615 - INFO - Iniciando carga...
+2024-11-27 02:05:10,347 - INFO - Carga completada en 0.73s: 1 exitosos, 0 fallidos
+2024-11-27 02:05:10,598 - INFO - Índices creados exitosamente
+2024-11-27 02:05:10,599 - INFO - Carga completada
+2024-11-27 02:05:10,714 - INFO - Conexión cerrada
+2024-11-27 02:05:10,716 - INFO - Pipeline ETL completado exitosamente
+2024-11-28 20:36:00,135 - INFO - Iniciando pipeline ETL
+2024-11-28 20:36:00,225 - INFO - Iniciando extracción...
+2024-11-28 20:36:00,346 - INFO - Procesando: A053-24.wav
+2024-11-28 20:37:13,252 - INFO - Procesando: A266-24.wav
+2024-11-28 20:38:38,738 - INFO - Procesando: A276-09.wav
+2024-11-28 20:41:04,357 - INFO - Procesando: A317-21.wav
+2024-11-28 20:41:41,680 - INFO - Procesando: A318-21.wav
+2024-11-28 20:43:47,407 - INFO - Procesando: A324-20.wav
+2024-11-28 20:46:48,679 - INFO - Iniciando pipeline ETL
+2024-11-28 20:46:48,679 - INFO - Iniciando extracción...
+2024-11-28 20:46:48,686 - INFO - Procesando: A053-24.wav
+2024-11-28 20:48:04,543 - INFO - Procesando: A266-24.wav
+2024-11-28 20:49:27,618 - INFO - Procesando: A276-09.wav
+2024-11-28 20:51:43,598 - INFO - Procesando: A317-21.wav
+2024-11-28 20:52:21,911 - INFO - Procesando: A318-21.wav
+2024-11-28 20:54:35,989 - INFO - Procesando: A324-20.wav
+2024-11-28 20:56:29,799 - INFO - Procesando: A441-20.wav
+2024-11-28 20:57:24,666 - INFO - Procesando: A469-20.wav
+2024-11-28 20:58:41,618 - INFO - Procesando: A499-21.wav
+2024-11-28 20:59:46,971 - INFO - Procesando: A553-24.wav
+2024-11-29 19:23:54,488 - INFO - Iniciando pipeline ETL
+2024-11-29 19:23:54,627 - INFO - Iniciando extracción...
+2024-11-29 19:23:54,635 - INFO - Procesando: A053-24.wav

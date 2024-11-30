@@ -1,0 +1,20 @@
+{
+    "fecha_ejecucion": "2024-11-08 00:48:18",
+    "tiempo_total_segundos": 6.696951,
+    "total_documentos": 3,
+    "carga_exitosa": 3,
+    "carga_fallida": 0,
+    "tasa_exito": "100.00%",
+    "metricas_por_lote": [
+        {
+            "batch_number": 1,
+            "start_time": "2024-11-08T00:48:11.664765",
+            "size": 3,
+            "end_time": "2024-11-08T00:48:18.361716",
+            "successful": 3,
+            "failed": 0,
+            "new_docs": 0,
+            "updated_docs": 3
+        }
+    ]
+}

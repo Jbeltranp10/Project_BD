@@ -1,0 +1,9 @@
+dask==2024.2.1
+distributed==2024.2.1
+SpeechRecognition==3.10.1
+pymongo==4.6.1
+tqdm==4.66.2
+numpy==1.26.4
+python-dotenv==1.0.1
+pytest==8.0.2
+pydub==0.25.1
