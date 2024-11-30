@@ -1,0 +1,306 @@
+2024-11-17 12:36:34,960 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 12:36:34,961 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 12:36:34,989 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 12:36:36,521 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 12:36:36,682 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 12:36:36,852 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 12:36:37,022 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 12:36:37,185 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 12:36:37,186 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 12:36:37,336 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 12:36:37,337 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 12:36:37,402 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:36:37,403 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2024-11-17 12:36:37,406 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2024-11-17 12:36:38,408 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 12:36:38,409 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 12:36:38,438 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 12:36:39,882 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 12:36:40,044 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 12:36:40,218 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 12:36:40,379 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 12:36:40,540 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 12:36:40,541 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 12:36:40,692 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 12:36:40,693 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 12:36:40,755 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-17 12:36:40,762 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 263-993-344
+2024-11-17 12:36:57,121 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 12:36:57,140 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:36:57] "GET / HTTP/1.1" 200 -
+2024-11-17 12:36:57,282 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:36:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 12:36:57,367 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:36:57] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 12:36:57,481 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:36:57] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-17 12:36:57,481 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:36:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 12:42:17,744 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 12:42:17,745 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:42:17] "GET / HTTP/1.1" 200 -
+2024-11-17 12:42:17,775 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:42:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 12:42:18,002 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:42:18] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 12:42:18,097 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:42:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 12:42:18,098 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 12:42:18] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-17 14:30:34,156 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 14:30:34,156 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 14:30:34,184 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 14:30:35,740 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 14:30:35,899 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 14:30:36,058 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 14:30:36,218 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 14:30:36,379 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 14:30:36,379 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 14:30:36,527 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 14:30:36,528 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 14:30:36,605 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 14:30:36,606 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2024-11-17 14:30:36,610 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2024-11-17 14:30:37,574 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 14:30:37,574 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 14:30:37,603 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 14:30:39,018 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 14:30:39,181 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 14:30:39,340 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 14:30:39,501 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 14:30:39,661 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 14:30:39,662 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 14:30:39,811 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 14:30:39,812 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 14:30:39,855 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-17 14:30:39,862 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 263-993-344
+2024-11-17 14:30:59,774 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 14:30:59,783 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 14:30:59] "GET / HTTP/1.1" 200 -
+2024-11-17 14:30:59,939 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 14:30:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 14:31:00,027 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 14:31:00] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 14:31:00,124 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 14:31:00] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-17 14:31:00,124 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [17/Nov/2024 14:31:00] "GET /static/js/search.js HTTP/1.1" 200 -
+2024-11-17 14:52:35,923 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 14:52:35,923 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 14:52:35,953 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 14:52:37,488 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 14:52:37,648 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 14:52:37,810 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 14:52:37,971 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 14:52:38,144 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 14:52:38,146 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 14:52:38,295 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 14:52:38,297 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 14:52:38,354 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 14:52:38,354 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 14:52:38,358 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 14:52:39,338 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 14:52:39,339 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 14:52:39,368 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 14:52:40,782 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 14:52:40,946 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 14:52:41,105 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 14:52:41,269 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 14:52:41,428 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 14:52:41,429 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 14:52:41,579 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 14:52:41,579 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 14:52:41,621 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 14:52:41,628 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 263-993-344
+2024-11-17 14:52:57,003 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 14:52:57,015 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 14:52:57] "GET / HTTP/1.1" 200 -
+2024-11-17 14:52:57,202 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 14:52:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 14:52:57,263 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 14:52:57] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 14:52:57,375 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 14:52:57] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-17 14:52:57,375 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 14:52:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 15:18:00,722 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 15:18:00,722 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 15:18:00,751 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 15:18:02,308 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 15:18:02,468 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 15:18:02,630 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 15:18:02,789 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 15:18:02,949 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 15:18:02,950 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 15:18:03,099 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 15:18:03,100 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 15:18:03,137 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 15:18:03,137 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 15:18:03,141 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 15:18:04,202 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 15:18:04,203 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 15:18:04,233 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 15:18:05,653 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 15:18:05,813 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 15:18:05,973 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 15:18:06,132 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 15:18:06,292 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 15:18:06,293 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 15:18:06,441 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 15:18:06,442 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 15:18:06,466 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 15:18:06,474 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 263-993-344
+2024-11-17 19:17:44,796 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 19:17:44,796 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 19:17:44,833 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 19:17:46,415 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 19:17:46,575 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 19:17:46,740 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 19:17:46,902 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 19:17:47,063 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 19:17:47,064 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 19:17:47,212 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 19:17:47,213 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 19:17:47,272 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 19:17:47,273 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 19:17:47,276 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 19:17:48,265 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 19:17:48,266 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 19:17:48,295 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 19:17:49,699 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 19:17:49,869 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 19:17:50,031 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 19:17:50,192 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 19:17:50,352 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 19:17:50,353 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 19:17:50,503 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 19:17:50,504 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 19:17:50,526 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 19:17:50,534 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 19:18:01,194 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 19:18:01,204 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 19:18:01] "GET / HTTP/1.1" 200 -
+2024-11-17 19:18:01,352 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 19:18:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-17 19:18:01,460 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 19:18:01] "GET /static/css/search.css HTTP/1.1" 200 -
+2024-11-17 19:18:01,554 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 19:18:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 19:18:01,555 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 19:18:01] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-17 20:24:54,258 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:24:54,258 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:24:54,292 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:24:55,849 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:24:56,008 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:24:56,167 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:24:56,326 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:24:56,507 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:24:56,508 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:24:56,663 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:24:56,664 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:24:56,686 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 20:24:56,695 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 20:25:27,183 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:25:27,184 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:25:27,214 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:25:28,760 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:25:28,920 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:25:29,084 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:25:29,246 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:25:29,409 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:25:29,410 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:25:29,560 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:25:29,561 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:25:29,597 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 20:25:29,597 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 20:25:29,601 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 20:25:30,566 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:25:30,566 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:25:30,595 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:25:31,999 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:25:32,165 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:25:32,326 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:25:32,486 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:25:32,645 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:25:32,646 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:25:32,795 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:25:32,796 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:25:32,820 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 20:25:32,827 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 20:26:02,353 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 20:26:02,362 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:26:02] "GET / HTTP/1.1" 200 -
+2024-11-17 20:26:02,491 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:26:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 20:26:02,607 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:26:02] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 20:26:02,704 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:26:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 20:26:02,704 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:26:02] "GET /static/js/search.js HTTP/1.1" 200 -
+2024-11-17 20:27:50,816 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 20:27:50,817 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:27:50] "GET / HTTP/1.1" 200 -
+2024-11-17 20:27:50,852 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:27:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 20:27:51,088 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:27:51] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 20:27:51,163 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:27:51] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-17 20:27:51,163 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:27:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 20:28:17,699 - werkzeug - INFO - [_internal.py:96] -  * Detected change in 'C:\\Users\\JhoanSebastianBeltrá\\Documents\\bigdata\\FlaskAPI-mongodb-main\\FlaskAPI-mongodb-main\\routes\\search.py', reloading
+2024-11-17 20:28:18,142 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 20:28:19,500 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:28:19,501 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:28:19,531 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:28:21,203 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:28:21,362 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:28:21,520 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:28:21,679 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:28:21,838 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:28:21,839 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:28:21,988 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:28:21,988 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:28:22,010 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 20:28:22,019 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 20:28:31,205 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 20:28:31,214 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:28:31] "GET / HTTP/1.1" 200 -
+2024-11-17 20:28:31,382 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:28:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 20:28:31,464 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:28:31] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 20:28:31,558 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:28:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 20:28:31,560 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:28:31] "GET /static/js/search.js HTTP/1.1" 200 -
+2024-11-17 20:29:48,463 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:29:48,464 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:29:48,493 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:29:49,971 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:29:50,129 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:29:50,289 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:29:50,459 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:29:50,620 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:29:50,621 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:29:50,769 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:29:50,770 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:29:50,812 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 20:29:50,813 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 20:29:50,816 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 20:29:51,787 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:29:51,787 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:29:51,817 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:29:53,232 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:29:53,392 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:29:53,552 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:29:53,711 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:29:53,872 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:29:53,874 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:29:54,023 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:29:54,023 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:29:54,060 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 20:29:54,068 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 20:37:40,640 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:37:40,641 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:37:40,669 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:37:42,204 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:37:42,368 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:37:42,529 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:37:42,689 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:37:42,849 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:37:42,850 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:37:43,000 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:37:43,001 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:37:43,055 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 20:37:43,056 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-17 20:37:43,059 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-17 20:37:44,052 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-17 20:37:44,052 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-17 20:37:44,083 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-17 20:37:45,489 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-17 20:37:45,649 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-17 20:37:45,809 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-17 20:37:45,967 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-17 20:37:46,128 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-17 20:37:46,129 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-17 20:37:46,278 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-17 20:37:46,279 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-17 20:37:46,304 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-17 20:37:46,311 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-17 20:39:38,310 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-17 20:39:38,318 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:39:38] "GET / HTTP/1.1" 200 -
+2024-11-17 20:39:38,470 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:39:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-17 20:39:38,563 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:39:38] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-17 20:39:38,658 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:39:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-17 20:39:38,659 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [17/Nov/2024 20:39:38] "GET /static/js/search.js HTTP/1.1" 200 -

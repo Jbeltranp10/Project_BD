@@ -1,0 +1,419 @@
+2024-11-28 19:57:45,901 - BigMongoData - INFO - [app.py:149] - Iniciando aplicación BigMongoData...
+2024-11-28 19:57:45,909 - BigMongoData - INFO - [app.py:39] - Iniciando conexión con MongoDB...
+2024-11-28 19:57:46,069 - BigMongoData - INFO - [app.py:44] - Comenzando creación de índices en MongoDB...
+2024-11-28 19:57:47,676 - BigMongoData - INFO - [app.py:57] - Índices creados correctamente
+2024-11-28 19:57:47,793 - BigMongoData - INFO - [app.py:68] - Iniciando conexión con Neo4j...
+2024-11-28 19:57:47,794 - BigMongoData - INFO - [app.py:71] - <neo4j._sync.driver.Neo4jDriver object at 0x000002485C9D4470>
+2024-11-28 19:57:48,283 - BigMongoData - INFO - [app.py:76] - Verificación de conectividad exitosa
+2024-11-28 19:57:48,354 - BigMongoData - INFO - [app.py:83] - Prueba de consulta exitosa
+2024-11-28 19:57:48,355 - BigMongoData - INFO - [app.py:167] - Iniciando servidor Flask...
+2024-11-28 19:57:49,466 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-28 19:57:49,466 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2024-11-28 19:57:50,209 - werkzeug - INFO - [_internal.py:97] -  * Restarting with watchdog (windowsapi)
+2024-11-28 19:57:53,620 - BigMongoData - INFO - [app.py:149] - Iniciando aplicación BigMongoData...
+2024-11-28 19:57:53,621 - BigMongoData - INFO - [app.py:39] - Iniciando conexión con MongoDB...
+2024-11-28 19:57:53,752 - BigMongoData - INFO - [app.py:44] - Comenzando creación de índices en MongoDB...
+2024-11-28 19:57:55,356 - BigMongoData - INFO - [app.py:57] - Índices creados correctamente
+2024-11-28 19:57:55,477 - BigMongoData - INFO - [app.py:68] - Iniciando conexión con Neo4j...
+2024-11-28 19:57:55,480 - BigMongoData - INFO - [app.py:71] - <neo4j._sync.driver.Neo4jDriver object at 0x000001EF2C432A20>
+2024-11-28 19:57:55,944 - BigMongoData - INFO - [app.py:76] - Verificación de conectividad exitosa
+2024-11-28 19:57:56,006 - BigMongoData - INFO - [app.py:83] - Prueba de consulta exitosa
+2024-11-28 19:57:56,016 - BigMongoData - INFO - [app.py:167] - Iniciando servidor Flask...
+2024-11-28 19:57:56,045 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-28 19:57:56,052 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 116-940-259
+2024-11-28 19:58:42,647 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\flask\\app.py', reloading
+2024-11-28 19:58:42,696 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2024-11-28 19:58:42,889 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\werkzeug\\serving.py', reloading
+2024-11-28 19:58:43,303 - BigMongoData - INFO - [app.py:170] - Cerrando conexiones...
+2024-11-28 19:58:44,067 - werkzeug - INFO - [_internal.py:97] -  * Restarting with watchdog (windowsapi)
+2024-11-28 19:58:47,715 - BigMongoData - INFO - [app.py:149] - Iniciando aplicación BigMongoData...
+2024-11-28 19:58:47,716 - BigMongoData - INFO - [app.py:39] - Iniciando conexión con MongoDB...
+2024-11-28 19:58:47,894 - BigMongoData - INFO - [app.py:44] - Comenzando creación de índices en MongoDB...
+2024-11-28 19:58:49,523 - BigMongoData - INFO - [app.py:57] - Índices creados correctamente
+2024-11-28 19:58:49,639 - BigMongoData - INFO - [app.py:68] - Iniciando conexión con Neo4j...
+2024-11-28 19:58:49,640 - BigMongoData - INFO - [app.py:71] - <neo4j._sync.driver.Neo4jDriver object at 0x00000210DBE7EC30>
+2024-11-28 19:58:50,133 - BigMongoData - INFO - [app.py:76] - Verificación de conectividad exitosa
+2024-11-28 19:58:50,198 - BigMongoData - INFO - [app.py:83] - Prueba de consulta exitosa
+2024-11-28 19:58:50,200 - BigMongoData - INFO - [app.py:167] - Iniciando servidor Flask...
+2024-11-28 19:58:50,225 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-28 19:58:50,239 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 116-940-259
+2024-11-28 19:58:51,572 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:58:52,018 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:58:52,018 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:58:52,019 - BigMongoData - INFO - [app.py:101] - Acceso a la página principal
+2024-11-28 19:58:52,120 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-28 19:58:52,167 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:58:52] "GET / HTTP/1.1" 200 -
+2024-11-28 19:58:52,488 - BigMongoData - INFO - [app.py:170] - Cerrando conexiones...
+2024-11-28 19:58:53,598 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:58:53,602 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:58:54,047 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:58:54,048 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:58:54,073 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:58:54,074 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:58:54,325 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:58:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-28 19:58:54,361 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:58:54] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-28 19:58:54,758 - werkzeug - INFO - [_internal.py:97] -  * Restarting with watchdog (windowsapi)
+2024-11-28 19:58:58,426 - BigMongoData - INFO - [app.py:149] - Iniciando aplicación BigMongoData...
+2024-11-28 19:58:58,426 - BigMongoData - INFO - [app.py:39] - Iniciando conexión con MongoDB...
+2024-11-28 19:58:58,544 - BigMongoData - INFO - [app.py:44] - Comenzando creación de índices en MongoDB...
+2024-11-28 19:59:00,179 - BigMongoData - INFO - [app.py:57] - Índices creados correctamente
+2024-11-28 19:59:00,295 - BigMongoData - INFO - [app.py:68] - Iniciando conexión con Neo4j...
+2024-11-28 19:59:00,296 - BigMongoData - INFO - [app.py:71] - <neo4j._sync.driver.Neo4jDriver object at 0x000002135CE13B00>
+2024-11-28 19:59:00,715 - BigMongoData - INFO - [app.py:76] - Verificación de conectividad exitosa
+2024-11-28 19:59:00,773 - BigMongoData - INFO - [app.py:83] - Prueba de consulta exitosa
+2024-11-28 19:59:00,774 - BigMongoData - INFO - [app.py:167] - Iniciando servidor Flask...
+2024-11-28 19:59:00,797 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-28 19:59:00,808 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 116-940-259
+2024-11-28 19:59:02,187 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:02,187 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:02,210 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:02,610 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:02,610 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:02,690 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:02,690 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:02,690 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:02,690 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:02,800 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:02] "GET /static/js/graph-viewer.js HTTP/1.1" 200 -
+2024-11-28 19:59:02,928 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:02] "GET /static/js/search.js HTTP/1.1" 200 -
+2024-11-28 19:59:02,944 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-28 19:59:04,543 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:04,609 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:04,611 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:04,612 - routes.search - INFO - [search.py:134] - Obteniendo estadísticas
+2024-11-28 19:59:04,668 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:04,735 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:04,737 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:04,738 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 0.0
+2024-11-28 19:59:04,738 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 0.0}
+2024-11-28 19:59:04,975 - routes.search - INFO - [search.py:162] - Estadísticas generadas exitosamente
+2024-11-28 19:59:04,977 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 19:59:04,992 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:04] "GET /api/stats HTTP/1.1" 200 -
+2024-11-28 19:59:05,022 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:05] "GET /api/graph/%20?min_score=0 HTTP/1.1" 200 -
+2024-11-28 19:59:05,957 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:06,052 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:06,065 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:06,066 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-28 19:59:06,906 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:07,137 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:07,193 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:07,195 - routes.search - INFO - [search.py:134] - Obteniendo estadísticas
+2024-11-28 19:59:07,549 - routes.search - INFO - [search.py:162] - Estadísticas generadas exitosamente
+2024-11-28 19:59:07,550 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:07] "GET /api/stats HTTP/1.1" 200 -
+2024-11-28 19:59:36,876 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:36,939 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:36,939 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:36,939 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:36,939 - routes.search - INFO - [search.py:73] - Parámetros limpios: {}
+2024-11-28 19:59:36,939 - routes.search - INFO - [search.py:107] - Query final: {}
+2024-11-28 19:59:37,766 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 21
+2024-11-28 19:59:37,860 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:37] "[35m[1mGET /api/search HTTP/1.1[0m" 21 -
+2024-11-28 19:59:40,508 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:40,573 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:40,574 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:40,575 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:40,576 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristian'}
+2024-11-28 19:59:40,576 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristian'}}
+2024-11-28 19:59:40,694 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 0
+2024-11-28 19:59:40,698 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:40] "[35m[1mGET /api/search?texto=Cristian+ HTTP/1.1[0m" 0 -
+2024-11-28 19:59:41,615 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:41,677 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:41,678 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:41,679 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:41,679 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristian'}
+2024-11-28 19:59:41,680 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristian'}}
+2024-11-28 19:59:41,803 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 0
+2024-11-28 19:59:41,806 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:41] "[35m[1mGET /api/search?texto=Cristian HTTP/1.1[0m" 0 -
+2024-11-28 19:59:44,765 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:44,826 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:44,830 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:44,831 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:44,832 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristiana á'}
+2024-11-28 19:59:44,833 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristiana á'}}
+2024-11-28 19:59:44,951 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 0
+2024-11-28 19:59:44,953 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:44] "[35m[1mGET /api/search?texto=Cristiana+á HTTP/1.1[0m" 0 -
+2024-11-28 19:59:45,119 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:45,180 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:45,187 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:45,197 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:45,198 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristiana'}
+2024-11-28 19:59:45,198 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristiana'}}
+2024-11-28 19:59:45,316 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 0
+2024-11-28 19:59:45,318 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:45] "[35m[1mGET /api/search?texto=Cristiana+ HTTP/1.1[0m" 0 -
+2024-11-28 19:59:47,873 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:47,935 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:47,936 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:47,938 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:47,940 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristiana Pardo'}
+2024-11-28 19:59:47,941 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristiana Pardo'}}
+2024-11-28 19:59:48,546 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 12
+2024-11-28 19:59:48,557 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:48] "[1mGET /api/search?texto=Cristiana+Pardo HTTP/1.1[0m" 12 -
+2024-11-28 19:59:54,897 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 19:59:54,992 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 19:59:54,992 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 19:59:54,992 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 19:59:54,992 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'Cristina Pardo'}
+2024-11-28 19:59:54,992 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'Cristina Pardo'}}
+2024-11-28 19:59:55,588 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 12
+2024-11-28 19:59:55,601 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 19:59:55] "[1mGET /api/search?texto=Cristina+Pardo HTTP/1.1[0m" 12 -
+2024-11-28 20:00:53,885 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\neo4j\\__init__.py', reloading
+2024-11-28 20:00:54,007 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\neo4j\\_sync\\driver.py', reloading
+2024-11-28 20:00:54,210 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\JsBeltran\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pymongo\\__init__.py', reloading
+2024-11-28 20:00:54,765 - BigMongoData - INFO - [app.py:170] - Cerrando conexiones...
+2024-11-28 20:00:55,944 - werkzeug - INFO - [_internal.py:97] -  * Restarting with watchdog (windowsapi)
+2024-11-28 20:01:02,491 - BigMongoData - INFO - [app.py:149] - Iniciando aplicación BigMongoData...
+2024-11-28 20:01:02,491 - BigMongoData - INFO - [app.py:39] - Iniciando conexión con MongoDB...
+2024-11-28 20:01:02,612 - BigMongoData - INFO - [app.py:44] - Comenzando creación de índices en MongoDB...
+2024-11-28 20:01:04,236 - BigMongoData - INFO - [app.py:57] - Índices creados correctamente
+2024-11-28 20:01:04,353 - BigMongoData - INFO - [app.py:68] - Iniciando conexión con Neo4j...
+2024-11-28 20:01:04,359 - BigMongoData - INFO - [app.py:71] - <neo4j._sync.driver.Neo4jDriver object at 0x000001CBD4A13B00>
+2024-11-28 20:01:04,928 - BigMongoData - INFO - [app.py:76] - Verificación de conectividad exitosa
+2024-11-28 20:01:04,986 - BigMongoData - INFO - [app.py:83] - Prueba de consulta exitosa
+2024-11-28 20:01:04,987 - BigMongoData - INFO - [app.py:167] - Iniciando servidor Flask...
+2024-11-28 20:01:05,010 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2024-11-28 20:01:05,048 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 116-940-259
+2024-11-28 20:05:54,492 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:05:54,955 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:05:54,956 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:05:54,957 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 20:05:54,957 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'pañales'}
+2024-11-28 20:05:54,957 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'pañales'}}
+2024-11-28 20:05:55,536 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 7
+2024-11-28 20:05:55,551 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:05:55] "[35m[1mGET /api/search?texto=pañales HTTP/1.1[0m" 7 -
+2024-11-28 20:09:07,639 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:09:07,756 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:09:07,756 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:09:07,757 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 20:09:07,757 - routes.search - INFO - [search.py:73] - Parámetros limpios: {}
+2024-11-28 20:09:07,757 - routes.search - INFO - [search.py:107] - Query final: {}
+2024-11-28 20:09:08,573 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 21
+2024-11-28 20:09:08,805 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:09:08] "[35m[1mGET /api/search?texto=n HTTP/1.1[0m" 21 -
+2024-11-28 20:09:08,976 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:09:09,038 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:09:09,038 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:09:09,054 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 20:09:09,054 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'nulidad'}
+2024-11-28 20:09:09,054 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'nulidad'}}
+2024-11-28 20:09:09,195 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 9
+2024-11-28 20:09:09,226 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:09:09] "[35m[1mGET /api/search?texto=nulidad HTTP/1.1[0m" 9 -
+2024-11-28 20:10:49,041 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:10:49,192 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:10:49,215 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:10:49,229 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 20:10:49,241 - routes.search - INFO - [search.py:73] - Parámetros limpios: {}
+2024-11-28 20:10:49,252 - routes.search - INFO - [search.py:107] - Query final: {}
+2024-11-28 20:10:50,069 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 21
+2024-11-28 20:10:50,093 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:10:50] "[35m[1mGET /api/search HTTP/1.1[0m" 21 -
+2024-11-28 20:10:54,901 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:10:55,109 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:10:55,109 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:10:55,110 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 61.0
+2024-11-28 20:10:55,111 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 61.0}
+2024-11-28 20:10:55,199 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 1 relaciones cumplen el criterio de similitud
+2024-11-28 20:10:55,200 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:10:55] "GET /api/graph/%20?min_score=61 HTTP/1.1" 200 -
+2024-11-28 20:11:01,117 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,168 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,199 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,207 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,231 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,232 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,236 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 51.0
+2024-11-28 20:11:01,239 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,282 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,355 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,379 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 51.0}
+2024-11-28 20:11:01,389 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,411 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:01,440 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,442 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 38.0
+2024-11-28 20:11:01,537 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,562 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,579 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,583 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 38.0}
+2024-11-28 20:11:01,604 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 9 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:01,646 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:01,665 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 45.0
+2024-11-28 20:11:01,720 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,754 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 50.0
+2024-11-28 20:11:01,787 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:01] "GET /api/graph/%20?min_score=51 HTTP/1.1" 200 -
+2024-11-28 20:11:01,818 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 47 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:01,847 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:01,850 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 45.0}
+2024-11-28 20:11:01,857 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 36.0
+2024-11-28 20:11:01,857 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 50.0}
+2024-11-28 20:11:01,966 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:01] "GET /api/graph/%20?min_score=38 HTTP/1.1" 200 -
+2024-11-28 20:11:01,973 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 39.0
+2024-11-28 20:11:02,033 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 36.0}
+2024-11-28 20:11:02,056 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 19 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:02,307 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 9 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:02,431 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 39.0}
+2024-11-28 20:11:02,786 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:02] "GET /api/graph/%20?min_score=45 HTTP/1.1" 200 -
+2024-11-28 20:11:02,878 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 40 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:02,947 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:02] "GET /api/graph/%20?min_score=50 HTTP/1.1" 200 -
+2024-11-28 20:11:02,977 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:02] "GET /api/graph/%20?min_score=39 HTTP/1.1" 200 -
+2024-11-28 20:11:03,000 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 63 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:03,078 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:03] "GET /api/graph/%20?min_score=36 HTTP/1.1" 200 -
+2024-11-28 20:11:04,864 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:04,946 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:04,947 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:04,947 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 34.0
+2024-11-28 20:11:04,948 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 34.0}
+2024-11-28 20:11:04,970 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:05,037 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 89 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:05,127 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:05,160 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:05] "GET /api/graph/%20?min_score=34 HTTP/1.1" 200 -
+2024-11-28 20:11:05,161 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:05,257 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 32.0
+2024-11-28 20:11:05,342 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:05,393 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:05,444 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 32.0}
+2024-11-28 20:11:05,616 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:05,626 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:05,719 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:05,792 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:05,870 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 121 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:05,937 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:05,937 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:05,950 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:05,966 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:06,082 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:06] "GET /api/graph/%20?min_score=32 HTTP/1.1" 200 -
+2024-11-28 20:11:06,165 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 27.0
+2024-11-28 20:11:06,183 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 27.0}
+2024-11-28 20:11:06,187 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 17.0
+2024-11-28 20:11:06,227 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:06,227 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 24.0
+2024-11-28 20:11:06,250 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 24.0}
+2024-11-28 20:11:06,293 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:06,361 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 316 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:06,402 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 17.0}
+2024-11-28 20:11:06,501 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:06] "GET /api/graph/%20?min_score=27 HTTP/1.1" 200 -
+2024-11-28 20:11:06,508 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 21.0
+2024-11-28 20:11:06,567 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 581 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:06,608 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 21.0}
+2024-11-28 20:11:06,719 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:07,100 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:07] "GET /api/graph/%20?min_score=24 HTTP/1.1" 200 -
+2024-11-28 20:11:07,152 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:07,390 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:07,431 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:07] "GET /api/graph/%20?min_score=17 HTTP/1.1" 200 -
+2024-11-28 20:11:07,558 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:07] "GET /api/graph/%20?min_score=21 HTTP/1.1" 200 -
+2024-11-28 20:11:07,932 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:07,946 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:08,074 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 16.0
+2024-11-28 20:11:08,090 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 16.0}
+2024-11-28 20:11:08,321 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:08,602 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:08] "GET /api/graph/%20?min_score=16 HTTP/1.1" 200 -
+2024-11-28 20:11:09,041 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:09,043 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:09,102 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:09,340 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:09,344 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 14.0
+2024-11-28 20:11:09,345 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 14.0}
+2024-11-28 20:11:09,470 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:09,471 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:09,472 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 12.0
+2024-11-28 20:11:09,472 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 12.0}
+2024-11-28 20:11:09,713 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:09,775 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:09,949 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:09] "GET /api/graph/%20?min_score=12 HTTP/1.1" 200 -
+2024-11-28 20:11:10,012 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:10] "GET /api/graph/%20?min_score=14 HTTP/1.1" 200 -
+2024-11-28 20:11:10,634 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:10,696 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:10,978 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:11,012 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:11,105 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 7.0
+2024-11-28 20:11:11,366 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:11,529 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 7.0}
+2024-11-28 20:11:11,739 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:11,739 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:11,821 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 5.0
+2024-11-28 20:11:11,977 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:11] "GET /api/graph/%20?min_score=7 HTTP/1.1" 200 -
+2024-11-28 20:11:12,041 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 5.0}
+2024-11-28 20:11:12,263 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:12,294 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:12] "GET /api/graph/%20?min_score=5 HTTP/1.1" 200 -
+2024-11-28 20:11:12,326 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:12,612 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:12,612 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:12,627 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 4.0
+2024-11-28 20:11:12,627 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 4.0}
+2024-11-28 20:11:12,707 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:12,803 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:12,961 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:13,247 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:13] "GET /api/graph/%20?min_score=4 HTTP/1.1" 200 -
+2024-11-28 20:11:13,279 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:13,652 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:13,822 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 2.0
+2024-11-28 20:11:13,993 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 2.0}
+2024-11-28 20:11:14,096 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:14,453 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:14,468 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 0.0
+2024-11-28 20:11:14,468 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 0.0}
+2024-11-28 20:11:14,521 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:14,946 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:15,057 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:15] "GET /api/graph/%20?min_score=2 HTTP/1.1" 200 -
+2024-11-28 20:11:15,215 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:15] "GET /api/graph/%20?min_score=0 HTTP/1.1" 200 -
+2024-11-28 20:11:39,102 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:39,239 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:39,319 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:39,320 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 19.0
+2024-11-28 20:11:39,451 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 19.0}
+2024-11-28 20:11:39,689 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:11:39,904 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:39] "GET /api/graph/%20?min_score=19 HTTP/1.1" 200 -
+2024-11-28 20:11:50,113 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:11:50,301 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:11:50,317 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:11:50,320 - routes.search - INFO - [search.py:66] - Iniciando búsqueda general
+2024-11-28 20:11:50,320 - routes.search - INFO - [search.py:73] - Parámetros limpios: {'texto': 'pañales'}
+2024-11-28 20:11:50,359 - routes.search - INFO - [search.py:107] - Query final: {'$text': {'$search': 'pañales'}}
+2024-11-28 20:11:50,952 - routes.search - INFO - [search.py:120] - Búsqueda completada. Resultados encontrados: 7
+2024-11-28 20:11:51,097 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:11:51] "[35m[1mGET /api/search?texto=pañales HTTP/1.1[0m" 7 -
+2024-11-28 20:12:30,746 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:12:30,814 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:12:31,062 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:12:31,063 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 1.0
+2024-11-28 20:12:31,064 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 1.0}
+2024-11-28 20:12:31,370 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:12:31,567 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:12:31] "GET /api/graph/%20?min_score=1 HTTP/1.1" 200 -
+2024-11-28 20:13:02,205 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:02,567 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:02,568 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:02,678 - BigMongoData - INFO - [app.py:101] - Acceso a la página principal
+2024-11-28 20:13:02,780 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:02] "GET / HTTP/1.1" 200 -
+2024-11-28 20:13:05,236 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:05,364 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:05,382 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:05,571 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:05,638 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:05,662 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:05,689 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:05,753 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:05,755 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:05,861 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:05,909 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:05,942 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:05,942 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:05,981 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:06,033 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-28 20:13:06,070 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:06] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-28 20:13:06,099 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:06,472 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-28 20:13:06,612 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:06] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-28 20:13:06,619 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:06] "[36mGET /static/js/graph-viewer.js HTTP/1.1[0m" 304 -
+2024-11-28 20:13:08,272 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:08,336 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:08,343 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:08,375 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:08,405 - routes.search - INFO - [search.py:134] - Obteniendo estadísticas
+2024-11-28 20:13:08,463 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:08,500 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:08,508 - routes.similitudes - INFO - [similitudes.py:87] - Buscando grafo para:   con similitud mínima de 0.0
+2024-11-28 20:13:08,533 - routes.similitudes - INFO - [similitudes.py:133] - Ejecutando consulta con parámetros: {'min_score': 0.0}
+2024-11-28 20:13:08,721 - routes.similitudes - INFO - [similitudes.py:161] - Filtrado completado: 787 relaciones cumplen el criterio de similitud
+2024-11-28 20:13:08,770 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:08] "GET /api/graph/%20?min_score=0 HTTP/1.1" 200 -
+2024-11-28 20:13:08,772 - routes.search - INFO - [search.py:162] - Estadísticas generadas exitosamente
+2024-11-28 20:13:08,937 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:08] "GET /api/stats HTTP/1.1" 200 -
+2024-11-28 20:13:10,649 - BigMongoData - INFO - [app.py:120] - Conexión MongoDB verificada
+2024-11-28 20:13:10,710 - BigMongoData - INFO - [app.py:133] - Conexión Neo4j verificada
+2024-11-28 20:13:10,710 - BigMongoData - INFO - [app.py:138] - Estado de conexiones - MongoDB: True, Neo4j: True
+2024-11-28 20:13:10,721 - routes.search - INFO - [search.py:134] - Obteniendo estadísticas
+2024-11-28 20:13:11,073 - routes.search - INFO - [search.py:162] - Estadísticas generadas exitosamente
+2024-11-28 20:13:11,073 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [28/Nov/2024 20:13:11] "GET /api/stats HTTP/1.1" 200 -

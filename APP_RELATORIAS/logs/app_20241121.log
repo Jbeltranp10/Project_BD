@@ -1,0 +1,75 @@
+2024-11-21 23:45:37,008 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-21 23:45:37,009 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-21 23:45:37,238 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-21 23:45:38,679 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-21 23:45:38,841 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-21 23:45:38,999 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-21 23:45:39,173 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-21 23:45:39,352 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-21 23:45:39,353 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-21 23:45:39,511 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-21 23:45:39,513 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-21 23:45:39,673 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-21 23:45:39,675 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-21 23:45:39,689 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-21 23:45:42,967 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-21 23:45:42,969 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-21 23:45:43,225 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-21 23:45:44,972 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-21 23:45:45,135 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-21 23:45:45,301 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-21 23:45:45,462 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-21 23:45:45,631 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-21 23:45:45,632 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-21 23:45:45,785 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-21 23:45:45,787 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-21 23:45:45,837 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-21 23:45:45,874 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-21 23:45:49,423 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:45:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-21 23:55:38,800 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-21 23:55:38,802 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-21 23:55:38,802 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-21 23:55:40,293 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-21 23:55:40,347 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:40] "GET / HTTP/1.1" 200 -
+2024-11-21 23:55:41,162 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-21 23:55:41,211 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:41] "GET /api/search HTTP/1.1" 200 -
+2024-11-21 23:55:41,384 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:41] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-21 23:55:41,419 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:41] "[36mGET /static/js/search.js HTTP/1.1[0m" 304 -
+2024-11-21 23:55:41,436 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-21 23:55:41,504 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-21 23:55:41,532 - routes.search - INFO - [search.py:100] - Obteniendo estadísticas
+2024-11-21 23:55:42,291 - routes.search - INFO - [search.py:126] - Estadísticas generadas exitosamente
+2024-11-21 23:55:42,292 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:42] "GET /api/stats HTTP/1.1" 200 -
+2024-11-21 23:55:45,181 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-21 23:55:45,182 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Auto'}
+2024-11-21 23:55:45,183 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Auto'}
+2024-11-21 23:55:45,958 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 13
+2024-11-21 23:55:45,969 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:45] "GET /api/search?tipo=Auto HTTP/1.1" 200 -
+2024-11-21 23:55:51,298 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:51] "GET /api/similitudes/A742-24 HTTP/1.1" 200 -
+2024-11-21 23:55:52,089 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [21/Nov/2024 23:55:52] "GET /api/similitudes/A742-24 HTTP/1.1" 200 -
+2024-11-22 00:49:11,249 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: a
+2024-11-22 00:49:11,259 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: a
+2024-11-22 00:49:11,274 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:49:11] "[31m[1mGET /api/providencia/a HTTP/1.1[0m" 400 -
+2024-11-22 00:49:15,251 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: a7
+2024-11-22 00:49:15,252 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: a7
+2024-11-22 00:49:15,260 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:49:15] "[31m[1mGET /api/providencia/a7 HTTP/1.1[0m" 400 -
+2024-11-22 00:49:18,105 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: a74
+2024-11-22 00:49:18,106 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: a74
+2024-11-22 00:49:18,110 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:49:18] "[31m[1mGET /api/providencia/a74 HTTP/1.1[0m" 400 -
+2024-11-22 00:49:36,568 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-22 00:49:36,571 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-22 00:49:36,572 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-22 00:49:37,871 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-22 00:49:37,902 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:49:37] "GET /api/search HTTP/1.1" 200 -
+2024-11-22 00:49:55,465 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: A742-24
+2024-11-22 00:49:55,467 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: A742-24
+2024-11-22 00:49:55,470 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:49:55] "[31m[1mGET /api/providencia/A742-24 HTTP/1.1[0m" 400 -
+2024-11-22 00:50:33,922 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-22 00:50:33,924 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Auto'}
+2024-11-22 00:50:33,926 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Auto'}
+2024-11-22 00:50:34,874 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 13
+2024-11-22 00:50:34,894 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [22/Nov/2024 00:50:34] "GET /api/search?tipo=Auto HTTP/1.1" 200 -
+2024-11-22 01:11:13,854 - werkzeug - INFO - [_internal.py:96] -  * Detected change in 'C:\\Users\\JhoanSebastianBeltrá\\Documents\\bigdata\\FlaskAPI-mongodb-main\\FlaskAPI-mongodb-main\\utils\\helpers.py', reloading
+2024-11-22 01:11:14,827 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-22 01:35:12,967 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat

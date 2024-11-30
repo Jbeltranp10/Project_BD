@@ -1,0 +1,107 @@
+<!-- Hereda del template base -->
+{% extends "base.html" %}
+
+<!-- Define el contenido específico de esta página -->
+{% block content %}
+<!-- Encabezado de la página -->
+<div class="search-header">
+    <h1>Buscador de Providencias</h1>
+    <p class="subtitle">Sistema de búsqueda y análisis de providencias jurídicas</p>
+</div>
+
+<!-- Contenedor del formulario de búsqueda -->
+<div class="search-container">
+    <div class="search-grid">
+        <!-- Filtro de tipo de providencia -->
+        <div class="filter-group">
+            <label for="tipo">Tipo de Providencia</label>
+            <select id="tipo" class="select-input">
+                <option value="">Todos los tipos</option>
+                <option value="Auto">Auto</option>
+                <option value="Constitucionalidad">Constitucionalidad</option>
+                <option value="Tutela">Tutela</option>
+            </select>
+        </div>
+
+        <!-- Filtro de año -->
+        <div class="filter-group">
+            <label for="anio">Año</label>
+            <input type="number" 
+                   id="anio" 
+                   class="text-input" 
+                   placeholder="Ej: 2023" 
+                   min="1900" 
+                   max="2025">
+        </div>
+
+        <!-- Filtro de ID de providencia -->
+        <div class="filter-group">
+            <label for="providencia">ID Providencia</label>
+            <input type="text" 
+                   id="providencia" 
+                   class="text-input" 
+                   placeholder="Ej: C-411-22">
+        </div>
+
+        <!-- Campo de búsqueda en contenido -->
+        <div class="filter-group">
+            <label for="searchText">Buscar en contenido</label>
+            <input type="text" 
+                   id="searchText" 
+                   class="text-input search-input" 
+                   placeholder="Buscar en el contenido...">
+        </div>
+    </div>
+</div>
+
+<!-- Grid de resultados y estadísticas -->
+<div class="results-grid">
+    <!-- Sección de resultados de búsqueda -->
+    <section class="results-section">
+        <h2 id="results-length">Resultados de búsqueda</h2>
+        <!-- Contenedor donde se cargarán dinámicamente los resultados -->
+        <div id="results" class="results-container">
+            <!-- Los resultados se insertarán aquí mediante JavaScript -->
+        </div>
+    </section>
+
+    <!-- Sección lateral de información -->
+    <div class="info-section">
+        <!-- Panel de estadísticas -->
+        <section class="stats-section">
+            <h2>Estadísticas</h2>
+            <div id="stats" class="stats-container">
+                <!-- Las estadísticas se cargarán dinámicamente -->
+            </div>
+        </section>
+
+        <!-- Panel de similitudes -->
+        <div class="section similarities-section">
+            <h2>Providencias Similares</h2>
+            
+            <div class="graph-controls">
+                <div class="input-group">
+                    <label for="providencia-search">Buscar providencia:</label>
+                    <input type="text" 
+                           id="providencia-search" 
+                           placeholder="Ej: T-012-24"
+                           class="text-input">
+                </div>
+        
+                <div class="input-group">
+                    <label for="score-slider">Porcentaje mínimo de similitud: <span id="score-value">0%</span></label>
+                    <input type="range" 
+                           id="score-slider" 
+                           min="0" 
+                           max="100" 
+                           value="0" 
+                           class="slider">
+                </div>
+            </div>
+        
+            <div id="graph-stats" class="graph-stats"></div>
+            <div id="graph-container" class="graph-container"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}

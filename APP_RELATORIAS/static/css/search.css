@@ -1,0 +1,293 @@
+/* Estilos base para inputs y selects */
+.select-input,
+.text-input {
+    width: 100%;                     /* Ocupa todo el ancho disponible */
+    padding: 0.75rem;                /* Espaciado interno */
+    border: 1px solid var(--gray-200); /* Borde suave */
+    border-radius: 8px;              /* Esquinas redondeadas */
+    font-size: 1rem;                 /* Tamaño de texto base */
+    transition: all 0.2s;            /* Animación suave en cambios */
+}
+
+/* Estilos para el estado focus de inputs */
+.select-input:focus,
+.text-input:focus {
+    border-color: var(--primary);    /* Borde azul al enfocar */
+    outline: none;                   /* Elimina outline por defecto */
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1); /* Sombra suave al enfocar */
+}
+
+/* Contenedor de grupos de filtros */
+.filter-group {
+    display: flex;                   /* Layout flexible */
+    flex-direction: column;          /* Dirección vertical */
+    gap: 0.5rem;                     /* Espacio entre elementos */
+}
+
+/* Etiquetas de los filtros */
+.filter-group label {
+    font-weight: 500;                /* Semi-negrita */
+    color: var(--gray-800);          /* Color oscuro para contraste */
+}
+
+/* Secciones principales de contenido */
+.results-section,
+.stats-section,
+.similarities-section {
+    background: white;               /* Fondo blanco */
+    border-radius: 12px;             /* Esquinas redondeadas */
+    padding: 1.5rem;                 /* Espaciado interno */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 1.5rem;           /* Espacio entre secciones */
+}
+
+/* Tarjeta de resultado individual */
+.result-card {
+    border: 1px solid var(--gray-200); /* Borde suave */
+    border-radius: 8px;              /* Esquinas redondeadas */
+    padding: 1.5rem;                 /* Espaciado interno */
+    margin-bottom: 1rem;             /* Espacio entre tarjetas */
+    transition: transform 0.2s;       /* Animación al hover */
+}
+
+/* Efecto hover en tarjetas */
+.result-card:hover {
+    transform: translateY(-2px);      /* Elevación sutil */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra al elevarse */
+}
+
+/* Contenedor de metadatos */
+.metadata {
+    display: flex;                   /* Layout flexible */
+    gap: 0.5rem;                     /* Espacio entre elementos */
+    margin: 0.5rem 0;                /* Margen vertical */
+}
+
+/* Etiquetas de metadatos */
+.metadata-tag {
+    background: var(--gray-100);     /* Fondo gris claro */
+    padding: 0.25rem 0.75rem;        /* Espaciado interno */
+    border-radius: 9999px;           /* Forma de píldora */
+    font-size: 0.875rem;             /* Texto pequeño */
+    color: var(--gray-800);          /* Color oscuro */
+}
+
+/* Encabezados de sección */
+h2 {
+    font-size: 1.25rem;              /* Tamaño de texto */
+    color: var(--gray-800);          /* Color oscuro */
+    margin-bottom: 1rem;             /* Espacio inferior */
+}
+/* Estilos para el visualizador del grafo */
+.graph-container {
+    width: 100%;
+    height: 500px;
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.graph-controls {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.graph-controls input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 4px;
+}
+
+.graph-controls input[type="range"] {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.graph-stats {
+    background: var(--gray-50);
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.graph-stats p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: var(--gray-800);
+}
+
+.slider-value {
+    font-size: 0.9rem;
+    color: var(--primary);
+    font-weight: 500;
+    text-align: right;
+}
+/* Estilos actualizados para la sección de similitudes */
+.similarities-section {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+/* Contenedor del grafo - NUEVO */
+.graph-container {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(249, 250, 251);
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+/* Controles del grafo - ACTUALIZADO */
+.graph-controls {
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Input de búsqueda - ACTUALIZADO */
+.graph-controls input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+/* Control deslizante - NUEVO */
+.graph-controls input[type="range"] {
+    width: 100%;
+    margin: 0.5rem 0;
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+.graph-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #e5e7eb;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #4f46e5;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.graph-controls input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    background: #e5e7eb;
+    border-radius: 2px;
+}
+
+/* Estadísticas del grafo - ACTUALIZADO */
+.graph-stats {
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.graph-stats p {
+    margin: 0.5rem 0;
+    color: #374151;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Etiquetas - NUEVO */
+.graph-controls label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.875rem;
+}
+
+/* Valor del control deslizante - NUEVO */
+#score-value {
+    display: inline-block;
+    min-width: 3em;
+    text-align: right;
+    font-weight: 500;
+    color: #4f46e5;
+}
+
+/* Estilos para los nodos y relaciones del grafo - NUEVO */
+.vis-network {
+    outline: none;
+}
+
+/* Personalización de tooltips - NUEVO */
+.vis-tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: #374151;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    pointer-events: none;
+}
+
+/* Personalización de la manipulación del grafo - NUEVO */
+.vis-manipulation {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilo para los botones de navegación - NUEVO */
+.vis-navigation {
+    border: none !important;
+}
+
+.vis-button {
+    border-radius: 4px !important;
+    background-color: white !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.vis-button:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Estilo para las etiquetas de los nodos - NUEVO */
+.vis-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #374151;
+}
+
+/* Estilo para las etiquetas de las relaciones - NUEVO */
+.vis-network div.vis-label {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .graph-container {
+        height: 400px;
+    }
+    
+    .graph-controls {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,281 @@
+2024-11-20 00:35:25,336 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-20 00:35:25,337 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-20 00:35:25,394 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-20 00:35:26,828 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-20 00:35:26,987 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-20 00:35:27,146 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-20 00:35:27,313 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-20 00:35:27,472 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-20 00:35:27,473 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-20 00:35:27,621 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-20 00:35:27,622 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-20 00:35:27,677 - werkzeug - INFO - [_internal.py:96] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 00:35:27,678 - werkzeug - INFO - [_internal.py:96] - [33mPress CTRL+C to quit[0m
+2024-11-20 00:35:27,682 - werkzeug - INFO - [_internal.py:96] -  * Restarting with stat
+2024-11-20 00:35:29,054 - BigMongoData - INFO - [app.py:99] - Iniciando aplicación BigMongoData...
+2024-11-20 00:35:29,054 - BigMongoData - INFO - [app.py:42] - Iniciando conexión con MongoDB...
+2024-11-20 00:35:29,103 - BigMongoData - INFO - [app.py:48] - Comenzando creación de índices en MongoDB...
+2024-11-20 00:35:30,516 - BigMongoData - INFO - [app.py:55] - Índice de texto creado exitosamente
+2024-11-20 00:35:30,678 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: providencia
+2024-11-20 00:35:30,836 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: tipo
+2024-11-20 00:35:30,996 - BigMongoData - INFO - [app.py:62] - Índice creado para campo: anio
+2024-11-20 00:35:31,153 - BigMongoData - INFO - [app.py:71] - Índice compuesto creado exitosamente
+2024-11-20 00:35:31,154 - BigMongoData - INFO - [app.py:74] - MongoDB inicializado correctamente. Índices creados: texto_text, providencia_1, tipo_1, anio_1, tipo_anio_1
+2024-11-20 00:35:31,303 - BigMongoData - INFO - [app.py:78] - Conexión a MongoDB verificada exitosamente
+2024-11-20 00:35:31,304 - BigMongoData - INFO - [app.py:102] - Iniciando servidor Flask...
+2024-11-20 00:35:31,336 - werkzeug - WARNING - [_internal.py:96] -  * Debugger is active!
+2024-11-20 00:35:31,345 - werkzeug - INFO - [_internal.py:96] -  * Debugger PIN: 571-037-312
+2024-11-20 00:35:43,375 - BigMongoData - INFO - [app.py:91] - Acceso a la página principal
+2024-11-20 00:35:43,398 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:43] "GET / HTTP/1.1" 200 -
+2024-11-20 00:35:43,552 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-20 00:35:43,621 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:43] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-11-20 00:35:43,748 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:43] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-20 00:35:43,749 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:43] "GET /static/js/search.js HTTP/1.1" 200 -
+2024-11-20 00:35:44,075 - routes.search - INFO - [search.py:100] - Obteniendo estadísticas
+2024-11-20 00:35:45,819 - routes.search - INFO - [search.py:126] - Estadísticas generadas exitosamente
+2024-11-20 00:35:45,820 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:45] "GET /api/stats HTTP/1.1" 200 -
+2024-11-20 00:35:51,010 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:35:51,011 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Auto'}
+2024-11-20 00:35:51,012 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Auto'}
+2024-11-20 00:35:51,762 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 13
+2024-11-20 00:35:51,765 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:35:51] "GET /api/search?tipo=Auto HTTP/1.1" 200 -
+2024-11-20 00:36:04,892 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:04,894 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Constitucionalidad'}
+2024-11-20 00:36:04,894 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Constitucionalidad'}
+2024-11-20 00:36:05,635 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 2
+2024-11-20 00:36:05,638 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:05] "GET /api/search?tipo=Constitucionalidad HTTP/1.1" 200 -
+2024-11-20 00:36:15,158 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:15,158 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Tutela'}
+2024-11-20 00:36:15,159 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Tutela'}
+2024-11-20 00:36:16,048 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 6
+2024-11-20 00:36:16,056 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:16] "GET /api/search?tipo=Tutela HTTP/1.1" 200 -
+2024-11-20 00:36:28,587 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:28,588 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:36:28,588 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:36:29,639 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:36:29,651 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:29] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:36:33,745 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:33,746 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2022'}
+2024-11-20 00:36:33,746 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2022'}
+2024-11-20 00:36:34,340 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 1
+2024-11-20 00:36:34,343 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:34] "GET /api/search?anio=2022 HTTP/1.1" 200 -
+2024-11-20 00:36:40,355 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:40,356 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:36:40,357 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:36:41,200 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:41,200 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:36:41,201 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:36:41,400 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:36:41,410 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:41] "GET /api/search?anio=202220 HTTP/1.1" 200 -
+2024-11-20 00:36:42,384 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:36:42,385 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2021'}
+2024-11-20 00:36:42,385 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2021'}
+2024-11-20 00:36:42,695 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 6
+2024-11-20 00:36:42,698 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:42] "GET /api/search?anio=2021 HTTP/1.1" 200 -
+2024-11-20 00:36:43,235 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:36:43,248 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:36:43] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:37:27,139 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:27,139 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:37:27,140 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:37:27,617 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:27,618 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2020'}
+2024-11-20 00:37:27,619 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2020'}
+2024-11-20 00:37:28,195 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:37:28,204 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:28] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:37:28,237 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 5
+2024-11-20 00:37:28,242 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:28] "GET /api/search?anio=2020 HTTP/1.1" 200 -
+2024-11-20 00:37:34,803 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:34,804 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2021'}
+2024-11-20 00:37:34,804 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2021'}
+2024-11-20 00:37:35,549 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 6
+2024-11-20 00:37:35,551 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:35] "GET /api/search?anio=2021 HTTP/1.1" 200 -
+2024-11-20 00:37:44,679 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:44,680 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:37:44,681 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:37:45,503 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:45,504 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2022'}
+2024-11-20 00:37:45,504 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2022'}
+2024-11-20 00:37:45,727 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:37:45,737 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:45] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:37:46,091 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 1
+2024-11-20 00:37:46,092 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:46] "GET /api/search?anio=2022 HTTP/1.1" 200 -
+2024-11-20 00:37:51,947 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:51,948 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:37:51,948 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:37:52,208 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:52,209 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2023'}
+2024-11-20 00:37:52,209 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2023'}
+2024-11-20 00:37:52,658 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 2
+2024-11-20 00:37:52,659 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:52] "GET /api/search?anio=2023 HTTP/1.1" 200 -
+2024-11-20 00:37:52,987 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:37:52,999 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:37:52] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:37:59,395 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:37:59,396 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:37:59,396 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:38:00,435 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:38:00,444 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:00] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:38:01,079 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:01,081 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2023'}
+2024-11-20 00:38:01,081 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2023'}
+2024-11-20 00:38:01,237 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 2
+2024-11-20 00:38:01,238 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:01] "GET /api/search?anio=2023 HTTP/1.1" 200 -
+2024-11-20 00:38:09,206 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:09,207 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:38:09,207 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:38:10,240 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:38:10,250 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:10] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:38:12,400 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:12,400 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2023'}
+2024-11-20 00:38:12,401 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2023'}
+2024-11-20 00:38:12,846 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 2
+2024-11-20 00:38:12,847 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:12] "GET /api/search?anio=2023 HTTP/1.1" 200 -
+2024-11-20 00:38:16,070 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:16,070 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:38:16,074 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:38:17,120 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:38:17,131 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:17] "GET /api/search?anio=202 HTTP/1.1" 200 -
+2024-11-20 00:38:17,316 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:17,316 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2024'}
+2024-11-20 00:38:17,317 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2024'}
+2024-11-20 00:38:17,482 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 5
+2024-11-20 00:38:17,485 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:17] "GET /api/search?anio=2024 HTTP/1.1" 200 -
+2024-11-20 00:38:42,971 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:42,971 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Auto', 'anio': '2024'}
+2024-11-20 00:38:42,972 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Auto', 'anio': '2024'}
+2024-11-20 00:38:43,422 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 4
+2024-11-20 00:38:43,424 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:43] "GET /api/search?tipo=Auto&anio=2024 HTTP/1.1" 200 -
+2024-11-20 00:38:47,472 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:38:47,473 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2024'}
+2024-11-20 00:38:47,473 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2024'}
+2024-11-20 00:38:48,079 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 5
+2024-11-20 00:38:48,083 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:38:48] "GET /api/search?anio=2024 HTTP/1.1" 200 -
+2024-11-20 00:46:27,386 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:46:27,386 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:46:27,386 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:46:28,442 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:46:28,453 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:28] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:46:31,979 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:46:31,980 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:46:31,980 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:46:33,030 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:46:33,039 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:33] "GET /api/search?texto=C HTTP/1.1" 200 -
+2024-11-20 00:46:33,416 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:46:33,416 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'Colom'}
+2024-11-20 00:46:33,417 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'Colom'}}
+2024-11-20 00:46:33,581 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 0
+2024-11-20 00:46:33,582 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:33] "GET /api/search?texto=Colom HTTP/1.1" 200 -
+2024-11-20 00:46:35,048 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:46:35,049 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'Colombia'}
+2024-11-20 00:46:35,049 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'Colombia'}}
+2024-11-20 00:46:35,834 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 15
+2024-11-20 00:46:35,843 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:35] "GET /api/search?texto=Colombia HTTP/1.1" 200 -
+2024-11-20 00:46:53,651 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:53] "GET /api/similitudes/A324-20 HTTP/1.1" 200 -
+2024-11-20 00:46:54,113 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:54] "GET /api/similitudes/A324-20 HTTP/1.1" 200 -
+2024-11-20 00:46:54,885 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:54] "GET /api/similitudes/A324-20 HTTP/1.1" 200 -
+2024-11-20 00:46:55,654 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:55] "GET /api/similitudes/A324-20 HTTP/1.1" 200 -
+2024-11-20 00:46:56,500 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:46:56] "GET /api/similitudes/A318-21 HTTP/1.1" 200 -
+2024-11-20 00:47:09,494 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:47:09,495 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:47:09,495 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:47:10,545 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:47:10,554 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:47:10] "GET /api/search?texto=p HTTP/1.1" 200 -
+2024-11-20 00:47:10,729 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:47:10,729 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'pto'}
+2024-11-20 00:47:10,730 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'pto'}}
+2024-11-20 00:47:10,881 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 0
+2024-11-20 00:47:10,882 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:47:10] "GET /api/search?texto=pto HTTP/1.1" 200 -
+2024-11-20 00:47:12,782 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:47:12,783 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'poceso'}
+2024-11-20 00:47:12,783 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'poceso'}}
+2024-11-20 00:47:12,934 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 0
+2024-11-20 00:47:12,934 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:47:12] "GET /api/search?texto=poceso HTTP/1.1" 200 -
+2024-11-20 00:47:17,191 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:47:17,191 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'proceso'}
+2024-11-20 00:47:17,192 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'proceso'}}
+2024-11-20 00:47:18,272 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 20
+2024-11-20 00:47:18,282 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:47:18] "GET /api/search?texto=proceso HTTP/1.1" 200 -
+2024-11-20 00:48:48,391 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:48:48,392 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:48:48,392 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:48:49,447 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:48:49,460 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:48:49] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:55:30,471 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: kml
+2024-11-20 00:55:30,472 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: kml
+2024-11-20 00:55:30,472 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:55:30] "[31m[1mGET /api/providencia/kml HTTP/1.1[0m" 400 -
+2024-11-20 00:55:43,155 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:55:43,157 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'anio': '2024'}
+2024-11-20 00:55:43,157 - routes.search - INFO - [search.py:75] - Query final: {'anio': '2024'}
+2024-11-20 00:55:43,764 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 5
+2024-11-20 00:55:43,767 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:55:43] "GET /api/search?anio=2024 HTTP/1.1" 200 -
+2024-11-20 00:55:51,728 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:55:51,728 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:55:51,729 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:55:52,784 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:55:52,795 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:55:52] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:55:54,113 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: A742-24
+2024-11-20 00:55:54,113 - routes.search - WARNING - [search.py:33] - Formato de ID inválido: A742-24
+2024-11-20 00:55:54,114 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:55:54] "[31m[1mGET /api/providencia/A742-24 HTTP/1.1[0m" 400 -
+2024-11-20 00:56:10,072 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:56:10,072 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'tipo': 'Auto'}
+2024-11-20 00:56:10,073 - routes.search - INFO - [search.py:75] - Query final: {'tipo': 'Auto'}
+2024-11-20 00:56:10,826 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 13
+2024-11-20 00:56:10,829 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:10] "GET /api/search?tipo=Auto HTTP/1.1" 200 -
+2024-11-20 00:56:15,915 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:56:15,916 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:56:15,917 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:56:16,993 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:56:17,005 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:17] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:56:27,224 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: C-440-22
+2024-11-20 00:56:27,827 - routes.search - INFO - [search.py:38] - Providencia encontrada: C-440-22
+2024-11-20 00:56:27,830 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:27] "GET /api/providencia/C-440-22 HTTP/1.1" 200 -
+2024-11-20 00:56:28,760 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:28] "GET /api/similitudes/C-440-22 HTTP/1.1" 200 -
+2024-11-20 00:56:43,808 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:56:43,808 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': '440'}
+2024-11-20 00:56:43,808 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': '440'}}
+2024-11-20 00:56:43,959 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 0
+2024-11-20 00:56:43,960 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:43] "GET /api/search?texto=440 HTTP/1.1" 200 -
+2024-11-20 00:56:49,959 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:56:49,960 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:56:49,960 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:56:51,017 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:56:51,026 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:56:51] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:57:03,318 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:03,318 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'c440 '}
+2024-11-20 00:57:03,319 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'c440 '}}
+2024-11-20 00:57:03,914 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 1
+2024-11-20 00:57:03,915 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:03] "GET /api/search?texto=c440+ HTTP/1.1" 200 -
+2024-11-20 00:57:12,116 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:12,117 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': '440 '}
+2024-11-20 00:57:12,117 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': '440 '}}
+2024-11-20 00:57:12,267 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 0
+2024-11-20 00:57:12,268 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:12] "GET /api/search?texto=440+ HTTP/1.1" 200 -
+2024-11-20 00:57:16,558 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:16,559 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:57:16,559 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:57:17,611 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:57:17,621 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:17] "GET /api/search?texto=+ HTTP/1.1" 200 -
+2024-11-20 00:57:17,787 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:17,787 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:57:17,788 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:57:18,110 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:57:18,120 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:18] "GET /api/search?texto=c+ HTTP/1.1" 200 -
+2024-11-20 00:57:20,971 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:20,972 - routes.search - INFO - [search.py:58] - Parámetros limpios: {'texto': 'c440 '}
+2024-11-20 00:57:20,972 - routes.search - INFO - [search.py:75] - Query final: {'$text': {'$search': 'c440 '}}
+2024-11-20 00:57:21,569 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 1
+2024-11-20 00:57:21,571 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:21] "GET /api/search?texto=c440+ HTTP/1.1" 200 -
+2024-11-20 00:57:29,847 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:29,848 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:57:29,848 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:57:30,901 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:57:30,911 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:30] "GET /api/search?texto=22 HTTP/1.1" 200 -
+2024-11-20 00:57:51,068 - routes.search - INFO - [search.py:51] - Iniciando búsqueda general
+2024-11-20 00:57:51,068 - routes.search - INFO - [search.py:58] - Parámetros limpios: {}
+2024-11-20 00:57:51,069 - routes.search - INFO - [search.py:75] - Query final: {}
+2024-11-20 00:57:51,841 - routes.search - INFO - [search.py:30] - Búsqueda de providencia específica: T-123-23
+2024-11-20 00:57:52,121 - routes.search - INFO - [search.py:87] - Búsqueda completada. Resultados encontrados: 21
+2024-11-20 00:57:52,131 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:52] "GET /api/search HTTP/1.1" 200 -
+2024-11-20 00:57:52,294 - routes.search - INFO - [search.py:38] - Providencia encontrada: T-123-23
+2024-11-20 00:57:52,296 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:52] "GET /api/providencia/T-123-23 HTTP/1.1" 200 -
+2024-11-20 00:57:53,227 - werkzeug - INFO - [_internal.py:96] - 127.0.0.1 - - [20/Nov/2024 00:57:53] "GET /api/similitudes/T-123-23 HTTP/1.1" 200 -

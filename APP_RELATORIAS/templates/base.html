@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título dinámico que puede ser sobrescrito por las páginas que heredan -->
+    <title>{% block title %}Buscador de Providencias{% endblock %}</title>
+    
+    <!-- Hojas de estilo CSS -->
+    <!-- main.css: Estilos generales -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <!-- search.css: Estilos específicos de búsqueda -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}">
+    <!-- Fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/vis-network/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <!-- Contenedor principal que será llenado por las páginas que hereden -->
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Scripts de JavaScript -->
+    <!-- main.js: Funcionalidad general -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!-- search.js: Funcionalidad de búsqueda -->
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <!-- Bloque para scripts adicionales en páginas específicas -->
+    <script src="{{ url_for('static', filename='js/graph-viewer.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

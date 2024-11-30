@@ -1,0 +1,91 @@
+/* Variables CSS globales */
+:root {
+  --primary: #4f46e5;              /* Color primario (azul) */
+  --gray-50: #f9fafb;              /* Gris más claro */
+  --gray-100: #f3f4f6;             /* Gris claro */
+  --gray-200: #e5e7eb;             /* Gris medio */
+  --gray-800: #1f2937;             /* Gris oscuro */
+}
+
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;          /* Incluye padding en ancho total */
+}
+
+/* Estilos base del cuerpo */
+body {
+  font-family: 'Inter', sans-serif; /* Fuente principal */
+  background-color: var(--gray-50); /* Fondo gris muy claro */
+  min-height: 100vh;               /* Altura mínima pantalla completa */
+}
+
+/* Contenedor principal */
+.main-content {
+  width: 100%;                     /* Ancho completo */
+  max-width: 1400px;               /* Ancho máximo */
+  margin: 0 auto;                  /* Centrado horizontal */
+  padding: 2rem;                   /* Espaciado interno */
+}
+
+/* Encabezado de búsqueda */
+.search-header {
+  text-align: center;              /* Texto centrado */
+  margin-bottom: 3rem;             /* Espacio inferior */
+}
+
+/* Título principal */
+.search-header h1 {
+  font-size: 2.5rem;               /* Tamaño grande */
+  color: var(--gray-800);          /* Color oscuro */
+  margin-bottom: 0.5rem;           /* Espacio inferior */
+}
+
+/* Subtítulo */
+.search-header .subtitle {
+  color: #6b7280;                  /* Gris medio */
+  font-size: 1.1rem;               /* Tamaño mediano */
+}
+
+/* Contenedor de búsqueda */
+.search-container {
+  background: white;               /* Fondo blanco */
+  border-radius: 12px;             /* Esquinas redondeadas */
+  padding: 2rem;                   /* Espaciado interno */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-bottom: 2rem;             /* Espacio inferior */
+}
+
+/* Grid de filtros de búsqueda */
+.search-grid {
+  display: grid;                   /* Layout tipo grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Columnas responsivas */
+  gap: 1.5rem;                     /* Espacio entre elementos */
+  margin-bottom: 1.5rem;           /* Espacio inferior */
+}
+
+/* Grid de resultados */
+.results-grid {
+  display: grid;                   /* Layout tipo grid */
+  grid-template-columns: 2fr 1fr;  /* Proporción 2:1 */
+  gap: 2rem;                       /* Espacio entre columnas */
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1024px) {
+  .results-grid {
+      grid-template-columns: 1fr;  /* Una columna en pantallas medianas */
+  }
+
+  .main-content {
+      padding: 1rem;               /* Menos padding en móvil */
+  }
+}
+
+@media (max-width: 640px) {
+  .search-grid {
+      grid-template-columns: 1fr;  /* Una columna en pantallas pequeñas */
+  }
+}
+
